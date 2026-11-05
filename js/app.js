@@ -120,7 +120,7 @@
     for (let d = trip().start; d <= trip().end; d = addDays(d, 1)) out.push(d);
     return out;
   }
-  // Město, ve kterém daný den spíme (ubytování). Výlety ho nikdy nemění.
+  // Výchozí město pro daný den; jednodenní výlety ho nemění.
   const nightBase = (iso) => bases().find((b) => b.start <= iso && iso < b.end) || null;
   const dayData = (iso) => S.data.days.find((d) => d.date === iso) || null;
   function ensureDay(iso) {
@@ -406,14 +406,13 @@
               <span class="city-card__jp" aria-hidden="true">${esc(b.nameJp || '')}</span>
               <div class="city-card__title">
                 <h3>${esc(b.name)}</h3>
-                <div class="city-card__dates">${fmtRange(b.start, b.end)} · ${nights} ${plural(nights, 'noc', 'noci', 'nocí')}</div>
+                <div class="city-card__dates">${fmtRange(b.start, b.end)}</div>
               </div>
               ${stateBadge}
             </div>
             <div class="city-card__body">
               ${b.description ? `<p>${esc(b.description)}</p>` : ''}
               <div class="city-card__facts">
-                <span>🏨 ${b.hotel ? esc(b.hotel) : 'Ubytování doplníme'}</span>
                 <span>📍 ${actCount} ${plural(actCount, 'bod', 'body', 'bodů')} programu</span>
               </div>
               <div class="city-card__actions">
@@ -587,7 +586,6 @@
           </div>
           ${t.description ? `<p class="trip-hero__desc">${esc(t.description)}</p>` : ''}
           ${t.transport ? `<div class="trip-hero__transport">🚆 ${esc(t.transport)}</div>` : ''}
-          <div class="trip-hero__transport">🏨 Spíme dál ${esc(b ? (b.nameIn || b.name) : '')} – výlet nemění ubytování.</div>
           <ul class="acts">${t.places.map((pl) => placeActHTML(pl, t)).join('')}</ul>
           <div class="trip-hero__foot">
             <button type="button" class="btn btn--sm" data-action="map-trip" data-id="${esc(t.id)}">🗺 Trasa na mapě</button>
@@ -742,7 +740,7 @@
                 <option value="">— bez termínu —</option>
                 ${allowed.map((d) => `<option value="${d}" ${t.date === d ? 'selected' : ''}>${fmtShortWd(d)}${tripsOn(d).filter((o) => o.id !== t.id).length ? ' (už je tam jiný výlet)' : ''}</option>`).join('')}
               </select>
-              <small>Jen dny, kdy spíme ${esc(b ? (b.nameIn || b.name) : '')} (výlet nemění ubytování).</small>
+              <small>Vyber den v rámci pobytu ve výchozím městě.</small>
             </label>
             <label class="field">Stav
               <select data-trip-status="${esc(t.id)}">
@@ -891,7 +889,7 @@
       const nights = diffDays(b.start, b.end);
       const m = L.marker([b.lat, b.lng], { icon: icon(`mk--base ${st === 'now' ? 'is-now' : ''}`, esc((b.nameJp || b.name).charAt(0)), b.color, 38), zIndexOffset: 1000 })
         .bindPopup(`<div class="pop__title">${esc(b.name)} ${esc(b.nameJp || '')}</div>
-          <div class="pop__meta">${fmtRange(b.start, b.end)} · ${nights} ${plural(nights, 'noc', 'noci', 'nocí')} · ${st === 'now' ? 'právě tady' : st === 'past' ? 'navštíveno' : 'čeká nás'}</div>
+          <div class="pop__meta">${fmtRange(b.start, b.end)} · ${st === 'now' ? 'právě tady' : st === 'past' ? 'navštíveno' : 'čeká nás'}</div>
           <button type="button" class="btn btn--sm pop__btn" data-action="select-day" data-date="${b.start}" data-scroll="1">Zobrazit program</button>`)
         .addTo(S.layers.route);
       S.markers['base:' + b.id] = m;
