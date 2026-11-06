@@ -138,16 +138,18 @@
   function ctx(iso) {
     const nb = nightBase(iso);
     const prev = nightBase(addDays(iso, -1));
-    const isArrival = iso === trip().start;
-    const isDeparture = iso === trip().end;
+    const isArrival = iso === (S.data.arrival ? S.data.arrival.date : trip().start);
+    const isDeparture = iso === (S.data.departure ? S.data.departure.date : trip().end);
     const transferFrom = !isArrival && prev && nb && prev.id !== nb.id ? prev : null;
     return {
       iso,
-      base: nb || prev,           // na odletový den zůstává poslední město
+      base: nb || (isDeparture ? prev : null),
       nightBase: nb,
       transferFrom,
       isArrival,
       isDeparture,
+      isOutbound: !!S.data.outbound && iso === S.data.outbound.date,
+      isHomecoming: !!S.data.homecoming && iso === S.data.homecoming.date,
       trips: tripsOn(iso),
       maybe: maybeTripsOn(iso),
       day: dayData(iso),
@@ -265,7 +267,7 @@
       html = `
         <div class="status-card__label">Do začátku cesty zbývá</div>
         <div class="status-card__big">${n} <small style="font-size:.45em">${plural(n, 'den', 'dny', 'dní')}</small></div>
-        <p class="status-card__meta">${esc(S.data.arrival ? S.data.arrival.title : 'Začátek cesty')}: ${fmtLongYear(t.start)}${first ? `<br>První zastávka: <strong>${esc(first.name)}</strong>` : ''}</p>
+        <p class="status-card__meta">${esc(S.data.outbound ? S.data.outbound.title : (S.data.arrival ? S.data.arrival.title : 'Začátek cesty'))}: ${fmtLongYear(t.start)}${first ? `<br>První zastávka: <strong>${esc(first.name)}</strong>` : ''}</p>
         <div style="display:flex;gap:8px;flex-wrap:wrap">
           <a class="btn btn--primary" href="#itinerar">Prohlédnout itinerář</a>
           <a class="btn" href="#mapa">Mapa cesty</a>
@@ -283,7 +285,9 @@
       const b = c.base;
       card.style.setProperty('--accent', b ? b.color : 'var(--shu)');
       let where = '';
-      if (c.isArrival) where = `Přiletěli jsme${S.data.arrival && S.data.arrival.from ? ` z ${esc(S.data.arrival.from)}` : ''} · ${fmtLong(S.today)}`;
+      if (c.isOutbound) where = `Dnes odlétáme z Prahy přes Tchaj-pej ✈️`;
+      else if (c.isHomecoming) where = 'Dnes se vracíme do Prahy 🏠';
+      else if (c.isArrival) where = `Přiletěli jsme${S.data.arrival && S.data.arrival.from ? ` z ${esc(S.data.arrival.from)}` : ''} · ${fmtLong(S.today)}`;
       else if (c.isDeparture) where = `Dnes letíme domů${S.data.departure && S.data.departure.via ? ` přes ${esc(S.data.departure.via)}` : ''} ✈️`;
       else if (c.transferFrom) where = `Dnes přejíždíme: ${esc(c.transferFrom.name)} → ${esc(b.name)} · ${fmtLong(S.today)}`;
       else where = fmtLong(S.today);
@@ -301,7 +305,7 @@
 
       html = `
         <div class="status-card__label">Dnes · den ${c.index} z ${c.total}</div>
-        <div class="status-card__city"><h2>${b ? esc(b.name) : ''}</h2>${b && b.nameJp ? `<span class="jp">${esc(b.nameJp)}</span>` : ''}</div>
+        <div class="status-card__city"><h2>${b ? esc(b.name) : esc((c.day && c.day.location) || 'Na cestě')}</h2>${b && b.nameJp ? `<span class="jp">${esc(b.nameJp)}</span>` : ''}</div>
         <p class="status-card__meta">${where}</p>
         ${tripBox}
         ${list ? `<ul class="status-card__list">${list}${more}</ul>` : ''}
@@ -327,7 +331,9 @@
 
   function renderJourneyBar() {
     const t = trip();
-    const total = Math.max(1, diffDays(t.start, t.end));
+    const japanStart = bases().length ? bases()[0].start : t.start;
+    const japanEnd = bases().length ? bases()[bases().length - 1].end : t.end;
+    const total = Math.max(1, diffDays(japanStart, japanEnd));
     const segs = bases().map((b) => {
       const w = (diffDays(b.start, b.end) / total) * 100;
       const st = baseState(b);
@@ -335,7 +341,7 @@
     });
     let marker = '';
     if (phase() === 'during') {
-      const pos = Math.min(100, Math.max(0, ((diffDays(t.start, S.today) + 0.5) / total) * 100));
+      const pos = Math.min(100, Math.max(0, ((diffDays(japanStart, S.today) + 0.5) / total) * 100));
       marker = `<span class="jb__marker" style="left:${pos}%" title="Dnes"></span>`;
     }
     $('#journey-bar').innerHTML = `
@@ -361,8 +367,17 @@
     const p = phase();
     let html = '';
 
+    const flightEndpoint = (event, symbol) => {
+      if (!event) return '';
+      return `<li class="tl-item ${S.today >= event.date ? 'is-past' : 'is-future'}" style="--c:var(--ink)">
+        <span class="tl-dot">${symbol}</span>
+        <div class="endpoint-card"><h3>${esc(event.title)}</h3><p>${fmtLongYear(event.date)}</p></div>
+      </li>`;
+    };
+    html += flightEndpoint(S.data.outbound, '✈');
+
     if (arr) {
-      const st = p === 'before' ? 'is-future' : 'is-past';
+      const st = S.today >= arr.date ? 'is-past' : 'is-future';
       html += `
         <li class="tl-item ${st}" style="--c:var(--ink)">
           <span class="tl-dot">✈</span>
@@ -430,13 +445,14 @@
       html += `<li class="tl-transfer is-flight">${fmtShortWd(dep.date)} · ${dep.place ? esc(dep.place.name) : ''}${dep.via ? ` → ${esc(dep.via)}` : ''}${dep.to ? ` → ${esc(dep.to)}` : ''}</li>`;
       html += `
         <li class="tl-item ${st}" style="--c:var(--ink)">
-          <span class="tl-dot">🏠</span>
+          <span class="tl-dot">✈</span>
           <div class="endpoint-card">
             <h3>${esc(dep.title)}</h3>
             <p>${fmtLongYear(dep.date)}</p>
           </div>
         </li>`;
     }
+    html += flightEndpoint(S.data.homecoming, '🏠');
     $('#timeline').innerHTML = html;
   }
 
@@ -467,11 +483,12 @@
       if (d === S.selected) cls.push('is-selected');
       let icon = '';
       if (c.trips.length) icon = `<span class="cal-cell__ico">${esc(c.trips[0].icon || '🧭')}</span>`;
-      else if (c.isArrival || c.isDeparture) icon = '<span class="cal-cell__ico">✈️</span>';
+      else if (c.isArrival || c.isDeparture || c.isOutbound || c.isHomecoming) icon = '<span class="cal-cell__ico">✈️</span>';
       else if (c.maybe.length) icon = `<span class="cal-cell__ico cal-cell__ico--maybe">${esc(c.maybe[0].icon || '?')}</span>`;
       const anyDone = (c.day && c.day.activities.some((a) => actDone(a, d))) || c.trips.some((tr) => tr.places.some((pl) => placeDone(pl, tr)));
-      const label = `${fmtLong(d)}, ${c.base ? c.base.name : ''}${c.trips.length ? ', výlet ' + c.trips.map((x) => x.name).join(', ') : ''}${d === S.today ? ', dnes' : ''}`;
-      const monthTag = (dayNum(d) === 1 || d === t.start) ? `<span class="cal-cell__city" style="font-weight:700">${MONTH_SHORT[monthIdx(d)]}</span>` : `<span class="cal-cell__city">${c.base ? esc(c.trips.length ? c.trips[0].name.split(/[ /+]/)[0] : c.base.name) : ''}</span>`;
+      const location = c.base ? c.base.name : ((c.day && c.day.location) || 'Na cestě');
+      const label = `${fmtLong(d)}, ${location}${c.trips.length ? ', výlet ' + c.trips.map((x) => x.name).join(', ') : ''}${d === S.today ? ', dnes' : ''}`;
+      const monthTag = (dayNum(d) === 1 || d === t.start) ? `<span class="cal-cell__city" style="font-weight:700">${MONTH_SHORT[monthIdx(d)]}</span>` : `<span class="cal-cell__city">${esc(c.trips.length ? c.trips[0].name.split(/[ /+]/)[0] : location)}</span>`;
       html += `
         <button type="button" class="${cls.join(' ')}" style="${style}" data-action="select-day" data-date="${d}" aria-label="${esc(label)}" aria-pressed="${d === S.selected}">
           ${anyDone ? '<span class="cal-cell__done" aria-hidden="true"></span>' : ''}
@@ -564,6 +581,8 @@
     if (b) sub.push(`<span class="badge" style="background:${esc(b.color)};color:#fff">${esc(b.name)}</span>`);
     if (c.isArrival) sub.push('<span class="badge">✈ Přílet</span>');
     if (c.isDeparture) sub.push('<span class="badge">✈ Odlet domů</span>');
+    if (c.isOutbound) sub.push('<span class="badge">✈ Odlet z Prahy</span>');
+    if (c.isHomecoming) sub.push('<span class="badge">🏠 Návrat do Prahy</span>');
     if (c.transferFrom) sub.push(`<span class="badge">🚄 Přejezd ${esc(c.transferFrom.nameFrom || 'z ' + c.transferFrom.name)}</span>`);
     if (iso === S.today) sub.push('<span class="badge badge--now">Dnes</span>');
     sub.push(`<span>${fmtLong(iso)} · den ${c.index} z ${c.total}</span>`);
