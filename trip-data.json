@@ -340,12 +340,12 @@
       "photos": [],
       "notes": [],
       "coverPhoto": {
-        "src": "photos/kamakura-buddha.jpg",
-        "caption": "Velký Buddha v Kamakuře",
-        "author": "Alexandar Vujadinovic",
-        "source": "https://commons.wikimedia.org/wiki/File:The_Great_Buddha_of_Kamakura.jpg",
-        "license": "CC BY-SA 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+        "src": "photos/kamakura-crossing.jpg",
+        "caption": "Slam Dunk Crossing u stanice Kamakurakōkōmae",
+        "author": "Quercus acuta",
+        "source": "https://commons.wikimedia.org/wiki/File:Kamakura_koukou_mae_Fumikiri_-_02.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
       "dateLabel": "Dle nálady"
     },
@@ -414,12 +414,12 @@
       "photos": [],
       "notes": [],
       "coverPhoto": {
-        "src": "photos/miyajima-torii.jpg",
+        "src": "photos/miyajima-torii-cc0.jpg",
         "caption": "Brána torii ve vodě na Mijadžimě",
-        "author": "Immanuelle",
-        "source": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_in_the_water.jpg",
-        "license": "CC BY 4.0",
-        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+        "author": "Balon Greyjoy",
+        "source": "https://commons.wikimedia.org/wiki/File:20190318_Itsukushima_Shrine.jpg",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
       }
     }
   ],
