@@ -719,7 +719,7 @@
       const pct = ts.total ? Math.round((ts.done / ts.total) * 100) : 0;
       const photo = t.coverPhoto || t.photos[0];
       const cover = photo ? `<img src="${esc(S.previews[photo.src] || photo.src)}" alt="${esc(photo.caption || t.name)}" loading="lazy" decoding="async">` : '';
-      const when = t.date
+      const when = t.hideDate ? '' : t.date
         ? `📅 ${fmtLong(t.date)}`
         : (t.dateLabel ? esc(t.dateLabel) : t.candidateDates && t.candidateDates.length ? `Možné dny: ${fmtDateList(t.candidateDates)}` : 'Termín zatím není');
       const places = t.places.map((pl) => {
@@ -762,7 +762,7 @@
           </div>
           <div class="trip-card__body">
             <div class="trip-card__status"><span class="badge badge--${ts.cls}">${esc(ts.label)}</span></div>
-            <div style="font-size:.9rem">${when}</div>
+            ${when ? `<div style="font-size:.9rem">${when}</div>` : ''}
             ${t.description ? `<p class="trip-card__desc">${esc(t.description)}</p>` : ''}
             ${t.transport ? `<div style="font-size:.85rem;color:var(--ink-soft)">🚆 ${esc(t.transport)}</div>` : ''}
             <div>
