@@ -4,14 +4,14 @@
     "title": "Japonsko 2026",
     "titleJp": "日本の旅",
     "subtitle": "Náš cestovní deník – sledujte, kde právě jsme a co nás čeká",
-    "start": "2026-11-15",
-    "end": "2026-12-02",
+    "start": "2026-11-14",
+    "end": "2026-12-03",
     "timezone": "Asia/Tokyo",
     "homeTimezone": "Europe/Prague"
   },
   "arrival": {
     "date": "2026-11-15",
-    "title": "Přílet z Prahy do Narity",
+    "title": "Přílet do Narity přes Tchaj-pej",
     "from": "Praha",
     "place": {
       "name": "Letiště Narita",
@@ -43,7 +43,8 @@
       "lng": 139.7671,
       "color": "#c73e2e",
       "arrivalBy": "Přílet z Prahy do Narity, vlakem do centra",
-      "description": "Obrovská metropole – chrámy, neonové čtvrti, trhy a výhledy. Odsud vyrážíme na výlety k Fuji a do Kamakury."
+      "description": "Obrovská metropole – chrámy, neonové čtvrti, trhy a výhledy. Odsud vyrážíme na výlety k Fuji a do Kamakury.",
+      "hotel": "Hanegi / Setagaya (poblíž Shimokitazawy)"
     },
     {
       "id": "osaka",
@@ -71,7 +72,8 @@
       "lng": 135.7681,
       "color": "#7b4f9d",
       "arrivalBy": "Vlakem z Ósaky",
-      "description": "Stará císařská metropole – tisíce torii, bambusový les a podzimní javory."
+      "description": "Stará císařská metropole – tisíce torii, bambusový les a podzimní javory.",
+      "hotel": "Higashi Otowa"
     },
     {
       "id": "hirosima",
@@ -116,48 +118,15 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-19",
         "2026-11-20",
         "2026-11-21"
       ],
-      "description": "Výlet k hoře Fuji a jezeru Kawaguchi. Termín vybereme podle počasí – Fuji musí být vidět!",
+      "description": "Hlavně kolo kolem jezera Kawaguči a Oishi Park. Den vybereme podle počasí místo tokijského programu; další vyhlídky jen podle viditelnosti a energie.",
       "transport": "Vlakem (Fuji Excursion) nebo dálkovým autobusem ze Šindžuku, cca 2 h",
       "places": [
         {
-          "id": "fuji-1",
-          "name": "Chureito Pagoda",
-          "lat": 35.5011,
-          "lng": 138.8013,
-          "note": "Ikonický výhled na pagodu a Fuji",
-          "visited": false
-        },
-        {
-          "id": "fuji-2",
-          "name": "Honcho Street",
-          "lat": 35.4869,
-          "lng": 138.8006,
-          "note": "Ulice s výhledem na Fuji ve Fujiyoshidě",
-          "visited": false
-        },
-        {
-          "id": "fuji-3",
-          "name": "Kanadorii",
-          "lat": 35.4836,
-          "lng": 138.7962,
-          "note": "Velká brána torii u stanice Fujisan",
-          "visited": false
-        },
-        {
-          "id": "fuji-4",
-          "name": "Kawaguchiko Station",
-          "lat": 35.4985,
-          "lng": 138.769,
-          "note": "Výchozí bod u jezera",
-          "visited": false
-        },
-        {
           "id": "fuji-5",
-          "name": "Půjčení kola a projížďka kolem jezera",
+          "name": "Kolo kolem jezera Kawaguči",
           "lat": 35.508,
           "lng": 138.764,
           "note": "Kola se půjčují u stanice Kawaguchiko",
@@ -170,37 +139,9 @@
           "lng": 138.7417,
           "note": "Park na severním břehu jezera s výhledem na Fuji",
           "visited": false
-        },
-        {
-          "id": "fuji-7",
-          "name": "Tenku no Torii",
-          "lat": 35.5226,
-          "lng": 138.7556,
-          "note": "„Nebeská brána“ nad jezerem",
-          "visited": false
         }
       ],
       "route": [
-        [
-          35.6896,
-          139.7006
-        ],
-        [
-          35.61,
-          138.94
-        ],
-        [
-          35.4836,
-          138.7962
-        ],
-        [
-          35.4869,
-          138.8006
-        ],
-        [
-          35.5011,
-          138.8013
-        ],
         [
           35.4985,
           138.769
@@ -212,14 +153,6 @@
         [
           35.5232,
           138.7417
-        ],
-        [
-          35.5226,
-          138.7556
-        ],
-        [
-          35.4985,
-          138.769
         ]
       ],
       "photos": [
@@ -235,20 +168,15 @@
       "name": "Kamakura + Enoshima",
       "nameJp": "鎌倉・江の島",
       "baseId": "tokio",
-      "date": null,
-      "status": "unplanned",
+      "date": "2026-11-19",
+      "status": "planned",
       "icon": "⛩️",
       "color": "#a0522d",
       "candidateDates": [
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-19",
-        "2026-11-20",
-        "2026-11-21"
+        "2026-11-19"
       ],
-      "description": "Přímořské historické město se svatyněmi, Velkým Buddhou a ostrovem Enoshima.",
-      "transport": "Vlakem z Tokia do Kamakury (cca 1 h), dále tramvají Enoden",
+      "description": "Svatyně, Hase-dera, Velký Buddha a pobřežní Enošima.",
+      "transport": "Vlakem z Tokia, po pobřeží Enoden; návrat šónanským monorailem.",
       "places": [
         {
           "id": "kam-1",
@@ -256,14 +184,6 @@
           "lat": 35.326,
           "lng": 139.5565,
           "note": "Hlavní svatyně Kamakury",
-          "visited": false
-        },
-        {
-          "id": "kam-2",
-          "name": "Komachi Street",
-          "lat": 35.3208,
-          "lng": 139.552,
-          "note": "Nákupní ulice se street foodem",
           "visited": false
         },
         {
@@ -283,14 +203,6 @@
           "visited": false
         },
         {
-          "id": "kam-5",
-          "name": "Slam Dunk crossing",
-          "lat": 35.3066,
-          "lng": 139.5003,
-          "note": "Přejezd u stanice Kamakurakókómae",
-          "visited": false
-        },
-        {
           "id": "kam-6",
           "name": "Enoshima",
           "lat": 35.2992,
@@ -305,32 +217,16 @@
           139.7671
         ],
         [
-          35.466,
-          139.6223
-        ],
-        [
-          35.3191,
-          139.5506
-        ],
-        [
           35.326,
           139.5565
-        ],
-        [
-          35.3208,
-          139.552
-        ],
-        [
-          35.3167,
-          139.5359
         ],
         [
           35.3126,
           139.5332
         ],
         [
-          35.3066,
-          139.5003
+          35.3167,
+          139.5359
         ],
         [
           35.2992,
@@ -346,8 +242,7 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kamakura_koukou_mae_Fumikiri_-_02.jpg",
         "license": "CC0 1.0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-      },
-      "hideDate": true
+      }
     },
     {
       "id": "miyajima",
@@ -361,7 +256,7 @@
       "candidateDates": [
         "2026-11-29"
       ],
-      "description": "Posvátný ostrov s plovoucí bránou torii a svatyní Itsukushima.",
+      "description": "Torii v moři, svatyně a chrámové stezky. Mount Misen pouze při dobrém počasí, dostatku času a energie.",
       "transport": "Vlakem JR do Miyajimaguchi, dále trajektem (cca 10 min)",
       "places": [
         {
@@ -387,6 +282,18 @@
           "lng": 132.3175,
           "note": "Nejlépe při přílivu",
           "visited": false
+        },
+        {
+          "id": "miy-shopping",
+          "name": "Miyajima Omotesandō Shopping Street",
+          "visited": false
+        },
+        {
+          "id": "miy-daishoin",
+          "name": "Daishō-in, Henjo Cave a Gohyaku Rakan",
+          "lat": 34.29195,
+          "lng": 132.318475,
+          "visited": false
         }
       ],
       "route": [
@@ -409,6 +316,10 @@
         [
           34.296,
           132.3198
+        ],
+        [
+          34.29195,
+          132.318475
         ]
       ],
       "photos": [],
@@ -425,38 +336,72 @@
   ],
   "days": [
     {
-      "date": "2026-11-15",
-      "title": "Přílet a první večer v Tokiu",
+      "date": "2026-11-14",
+      "notes": [],
+      "photos": [],
+      "title": "Odlet z Prahy",
       "activities": [
         {
-          "id": "d1115-1",
+          "title": "Odlet z Prahy do Tchaj-peje",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "doprava",
+          "note": "",
+          "time": "10:30",
+          "done": false,
+          "id": "brief-11-14-1"
+        },
+        {
+          "title": "Noční let a přestup v Tchaj-peji",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "doprava",
+          "note": "",
           "time": "",
-          "title": "Přílet z Prahy na letiště Narita",
-          "place": "Letiště Narita",
+          "done": false,
+          "id": "brief-11-14-2"
+        }
+      ],
+      "location": "Na cestě"
+    },
+    {
+      "date": "2026-11-15",
+      "title": "Přílet do Tokia a odpočinek",
+      "activities": [
+        {
+          "title": "Odpolední přílet do Narity",
+          "place": "Narita",
           "lat": 35.772,
           "lng": 140.3929,
           "type": "doprava",
-          "done": false
-        },
-        {
-          "id": "d1115-2",
+          "note": "",
           "time": "",
-          "title": "Vlakem do centra Tokia",
-          "place": "Tokio",
-          "lat": 35.6812,
-          "lng": 139.7671,
-          "type": "doprava",
-          "done": false
+          "done": false,
+          "id": "brief-11-15-1"
         },
         {
-          "id": "d1115-3",
-          "time": "19:00",
-          "title": "Večerní procházka – Omoide Yokocho",
-          "place": "Šindžuku",
-          "lat": 35.693,
-          "lng": 139.6995,
-          "type": "jidlo",
-          "done": false
+          "title": "Přesun do Hanegi / Setagaya",
+          "place": "Hanegi",
+          "lat": null,
+          "lng": null,
+          "type": "doprava",
+          "note": "Ubytování poblíž Shimokitazawy.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-15-2"
+        },
+        {
+          "title": "Aklimatizace a odpočinek",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-15-3"
         }
       ],
       "notes": [
@@ -474,47 +419,51 @@
     },
     {
       "date": "2026-11-16",
-      "title": "Asakusa a Ueno",
+      "title": "Meiji Jingū, Harajuku, Šibuja a Šindžuku",
       "activities": [
         {
-          "id": "d1116-1",
-          "time": "09:00",
-          "title": "Chrám Sensó-dži",
-          "place": "Asakusa",
-          "lat": 35.7148,
-          "lng": 139.7967,
+          "title": "Meiji Jingū a okolní zeleň",
+          "place": "Harajuku",
+          "lat": 35.6764,
+          "lng": 139.6993,
           "type": "pamatka",
-          "done": false
+          "note": "Krátce také park Yoyogi.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-16-1"
         },
         {
-          "id": "d1116-2",
-          "time": "12:00",
-          "title": "Oběd a ulička Nakamise",
-          "place": "Asakusa",
-          "lat": 35.7117,
-          "lng": 139.7964,
-          "type": "jidlo",
-          "done": false
+          "title": "Harajuku → Omotesandó → Cat Street",
+          "place": "Harajuku",
+          "lat": 35.6716,
+          "lng": 139.7031,
+          "type": "nakupy",
+          "note": "Takeshita Street a procházka směrem k Šibuji.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-16-2"
         },
         {
-          "id": "d1116-3",
-          "time": "14:00",
-          "title": "Park Ueno",
-          "place": "Ueno",
-          "lat": 35.7156,
-          "lng": 139.7745,
+          "title": "Šibuja",
+          "place": "Šibuja",
+          "lat": 35.6595,
+          "lng": 139.7005,
+          "type": "jine",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-16-3"
+        },
+        {
+          "title": "Shinjuku Gyoen a večerní Šindžuku",
+          "place": "Šindžuku",
+          "lat": 35.685,
+          "lng": 139.71,
           "type": "priroda",
-          "done": false
-        },
-        {
-          "id": "d1116-4",
-          "time": "17:00",
-          "title": "Výhled z Tokyo Skytree",
-          "place": "Sumida",
-          "lat": 35.7101,
-          "lng": 139.8107,
-          "type": "vyhled",
-          "done": false
+          "note": "Podle chuti obchody kolem Lumine nebo kino v Kabukičó.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-16-4"
         }
       ],
       "notes": [],
@@ -522,47 +471,18 @@
     },
     {
       "date": "2026-11-17",
-      "title": "Šibuja a Harajuku",
+      "title": "Volnější Tokio / rezerva pro Fuji",
       "activities": [
         {
-          "id": "d1117-1",
-          "time": "09:30",
-          "title": "Svatyně Meiji Jingu",
-          "place": "Harajuku",
-          "lat": 35.6764,
-          "lng": 139.6993,
-          "type": "pamatka",
-          "done": false
-        },
-        {
-          "id": "d1117-2",
-          "time": "11:30",
-          "title": "Takeshita Street",
-          "place": "Harajuku",
-          "lat": 35.6716,
-          "lng": 139.7031,
-          "type": "nakupy",
-          "done": false
-        },
-        {
-          "id": "d1117-3",
-          "time": "15:00",
-          "title": "Křižovatka Šibuja",
-          "place": "Šibuja",
-          "lat": 35.6595,
-          "lng": 139.7005,
+          "title": "Volný program v Tokiu",
+          "place": "",
+          "lat": null,
+          "lng": null,
           "type": "jine",
-          "done": false
-        },
-        {
-          "id": "d1117-4",
-          "time": "17:00",
-          "title": "Shibuya Sky při západu slunce",
-          "place": "Šibuja",
-          "lat": 35.6584,
-          "lng": 139.7022,
-          "type": "vyhled",
-          "done": false
+          "note": "Fuji nemá pevné datum; den výletu vybereme podle počasí.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-17-1"
         }
       ],
       "notes": [],
@@ -570,37 +490,51 @@
     },
     {
       "date": "2026-11-18",
-      "title": "Císařský palác, Ginza a Akihabara",
+      "title": "Asakusa, Akihabara a Skytree",
       "activities": [
         {
-          "id": "d1118-1",
-          "time": "09:30",
-          "title": "Východní zahrady Císařského paláce",
-          "place": "Čijoda",
-          "lat": 35.6852,
-          "lng": 139.7528,
-          "type": "priroda",
-          "done": false
+          "title": "Sensō-ji a historická Asakusa",
+          "place": "Asakusa",
+          "lat": 35.7148,
+          "lng": 139.7967,
+          "type": "pamatka",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-18-1"
         },
         {
-          "id": "d1118-2",
-          "time": "12:30",
-          "title": "Ginza – procházka a oběd",
-          "place": "Ginza",
-          "lat": 35.6717,
-          "lng": 139.765,
-          "type": "jidlo",
-          "done": false
+          "title": "Kappabashi / Asahi Sky Room",
+          "place": "Asakusa",
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "note": "Podle nálady keramika v Dengama, nebo vyhlídka a pivo.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-18-2"
         },
         {
-          "id": "d1118-3",
-          "time": "16:00",
-          "title": "Akihabara",
+          "title": "Akihabara a GiGO",
           "place": "Akihabara",
           "lat": 35.6984,
           "lng": 139.7731,
           "type": "nakupy",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-18-3"
+        },
+        {
+          "title": "Večerní Skytree a Solamachi",
+          "place": "Oshiage",
+          "lat": 35.7101,
+          "lng": 139.8107,
+          "type": "vyhled",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-18-4"
         }
       ],
       "notes": [],
@@ -608,65 +542,58 @@
     },
     {
       "date": "2026-11-19",
-      "title": "Odaiba a teamLab",
-      "activities": [
-        {
-          "id": "d1119-1",
-          "time": "10:00",
-          "title": "teamLab Planets",
-          "place": "Tojosu",
-          "lat": 35.6491,
-          "lng": 139.7898,
-          "type": "jine",
-          "done": false
-        },
-        {
-          "id": "d1119-2",
-          "time": "14:00",
-          "title": "Odaiba – nábřeží a Rainbow Bridge",
-          "place": "Odaiba",
-          "lat": 35.63,
-          "lng": 139.775,
-          "type": "vyhled",
-          "done": false
-        }
-      ],
+      "title": "Kamakura a Enošima",
+      "activities": [],
       "notes": [],
       "photos": []
     },
     {
       "date": "2026-11-20",
-      "title": "Tsukiji a Roppongi",
+      "title": "Toyosu, Odaiba, Ginza a Hibiya",
       "activities": [
         {
-          "id": "d1120-1",
-          "time": "08:30",
-          "title": "Trh Tsukiji Outer Market",
+          "title": "Toyosu Market",
+          "place": "Toyosu",
+          "lat": 35.644167,
+          "lng": 139.783611,
+          "type": "jidlo",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-20-1"
+        },
+        {
+          "title": "Odaiba a Rainbow Bridge",
+          "place": "Odaiba",
+          "lat": 35.63,
+          "lng": 139.775,
+          "type": "vyhled",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-20-2"
+        },
+        {
+          "title": "Tsukiji Outer Market",
           "place": "Tsukiji",
           "lat": 35.6654,
           "lng": 139.7707,
           "type": "jidlo",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-20-3"
         },
         {
-          "id": "d1120-2",
-          "time": "13:00",
-          "title": "Tokyo Tower",
-          "place": "Minato",
-          "lat": 35.6586,
-          "lng": 139.7454,
-          "type": "vyhled",
-          "done": false
-        },
-        {
-          "id": "d1120-3",
-          "time": "17:00",
-          "title": "Roppongi Hills – večerní výhled",
-          "place": "Roppongi",
-          "lat": 35.6605,
-          "lng": 139.7292,
-          "type": "vyhled",
-          "done": false
+          "title": "Ginza a večerní Hibiya",
+          "place": "Ginza / Hibiya",
+          "lat": 35.6717,
+          "lng": 139.765,
+          "type": "jine",
+          "note": "Itoya, světla Hibiya; Tokyo Tower či Roppongi jen při dostatku času.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-20-4"
         }
       ],
       "notes": [],
@@ -674,37 +601,40 @@
     },
     {
       "date": "2026-11-21",
-      "title": "Volný den v Tokiu",
+      "title": "Shimokitazawa, Gōtokuji a Nakameguro",
       "activities": [
         {
-          "id": "d1121-1",
-          "time": "10:00",
-          "title": "Šimokitazawa – kavárny a second-handy",
-          "place": "Šimokitazawa",
+          "title": "Shimokitazawa",
+          "place": "Shimokitazawa",
           "lat": 35.6614,
           "lng": 139.668,
           "type": "nakupy",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-21-1"
         },
         {
-          "id": "d1121-2",
-          "time": "15:00",
+          "title": "Gōtokuji",
+          "place": "Setagaya",
+          "lat": null,
+          "lng": null,
+          "type": "pamatka",
+          "note": "Chrám s kočkami maneki-neko.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-21-2"
+        },
+        {
           "title": "Nakameguro",
-          "place": "Meguro",
+          "place": "Nakameguro",
           "lat": 35.644,
           "lng": 139.699,
           "type": "jine",
-          "done": false
-        },
-        {
-          "id": "d1121-3",
-          "time": "19:00",
-          "title": "Ikebukuro – večeře",
-          "place": "Ikebukuro",
-          "lat": 35.729,
-          "lng": 139.7194,
-          "type": "jidlo",
-          "done": false
+          "note": "Volitelně Daikanyama, večer volný poblíž ubytování.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-21-3"
         }
       ],
       "notes": [],
@@ -712,37 +642,51 @@
     },
     {
       "date": "2026-11-22",
-      "title": "Přejezd do Ósaky",
+      "title": "Nozomi do Ósaky a jižní Ósaka",
       "activities": [
         {
-          "id": "d1122-1",
-          "time": "10:00",
-          "title": "Šinkansen Tokio → Šin-Ósaka",
-          "place": "Tokio",
-          "lat": 35.6812,
-          "lng": 139.7671,
+          "title": "Nozomi 113: příjezd do Šin-Ósaky",
+          "place": "Šin-Ósaka",
+          "lat": null,
+          "lng": null,
           "type": "doprava",
-          "done": false
+          "note": "Přesun z Tokia, odložení zavazadel.",
+          "time": "08:48",
+          "done": false,
+          "id": "brief-11-22-1"
         },
         {
-          "id": "d1122-2",
-          "time": "14:00",
-          "title": "Volný program v Ósace",
-          "place": "Ósaka",
-          "lat": 34.6937,
-          "lng": 135.5023,
-          "type": "doprava",
-          "done": false
+          "title": "Kuromon Market",
+          "place": "Nippombaši",
+          "lat": 34.6654,
+          "lng": 135.5066,
+          "type": "jidlo",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-22-2"
         },
         {
-          "id": "d1122-3",
-          "time": "18:00",
-          "title": "Dótonbori – večerní street food",
+          "title": "Namba Yasaka Jinja",
+          "place": "Namba",
+          "lat": null,
+          "lng": null,
+          "type": "pamatka",
+          "note": "Volitelně také Ikutama Shrine.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-22-3"
+        },
+        {
+          "title": "Shinsaibashi, Dotonbori a Hozenji Yokocho",
           "place": "Namba",
           "lat": 34.6687,
           "lng": 135.5013,
-          "type": "jidlo",
-          "done": false
+          "type": "jine",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-22-4"
         }
       ],
       "notes": [],
@@ -750,37 +694,51 @@
     },
     {
       "date": "2026-11-23",
-      "title": "Hrad Ósaka a Šinsekai",
+      "title": "Shitennō-ji, Šinsekai a teamLab",
       "activities": [
         {
-          "id": "d1123-1",
-          "time": "09:30",
-          "title": "Hrad Ósaka",
-          "place": "Čúó",
-          "lat": 34.6873,
-          "lng": 135.5262,
+          "title": "Shitennō-ji",
+          "place": "Tennoji",
+          "lat": 34.6539,
+          "lng": 135.51645,
           "type": "pamatka",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-23-1"
         },
         {
-          "id": "d1123-2",
-          "time": "12:30",
-          "title": "Trh Kuromon",
-          "place": "Nippombaši",
-          "lat": 34.6654,
-          "lng": 135.5066,
-          "type": "jidlo",
-          "done": false
-        },
-        {
-          "id": "d1123-3",
-          "time": "16:00",
-          "title": "Šinsekai a věž Tsutenkaku",
-          "place": "Naniwa",
+          "title": "Šinsekai a Tsutenkaku",
+          "place": "Šinsekai",
           "lat": 34.6525,
           "lng": 135.5063,
+          "type": "jine",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-23-2"
+        },
+        {
+          "title": "Abeno Harukas",
+          "place": "Tennoji",
+          "lat": 34.646,
+          "lng": 135.51338889,
           "type": "vyhled",
-          "done": false
+          "note": "Vyhlídka volitelně.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-23-3"
+        },
+        {
+          "title": "teamLab Botanical Garden Osaka",
+          "place": "Nagai",
+          "lat": 34.61055556,
+          "lng": 135.52166667,
+          "type": "jine",
+          "note": "Pevná večerní rezervace.",
+          "time": "18:00",
+          "done": false,
+          "id": "brief-11-23-4"
         }
       ],
       "notes": [],
@@ -788,27 +746,51 @@
     },
     {
       "date": "2026-11-24",
-      "title": "Umeda a akvárium",
+      "title": "Hrad Ósaka, Nakanoshima a Umeda",
       "activities": [
         {
-          "id": "d1124-1",
-          "time": "10:00",
-          "title": "Akvárium Kaiyukan",
-          "place": "Minato",
-          "lat": 34.6545,
-          "lng": 135.429,
-          "type": "jine",
-          "done": false
+          "title": "Hrad Ósaka a park",
+          "place": "Ósaka",
+          "lat": 34.6873,
+          "lng": 135.5262,
+          "type": "pamatka",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-24-1"
         },
         {
-          "id": "d1124-2",
-          "time": "16:30",
-          "title": "Umeda Sky Building",
+          "title": "Nakanoshima",
+          "place": "Nakanoshima",
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "note": "Podle chuti Museum of Art.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-24-2"
+        },
+        {
+          "title": "Umeda Sky Building a Grand Green Osaka",
           "place": "Umeda",
           "lat": 34.7053,
           "lng": 135.4906,
           "type": "vyhled",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-24-3"
+        },
+        {
+          "title": "Tenma a Tenjinbashi-suji",
+          "place": "Tenma",
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "note": "Večerní procházka včetně Osaka Tenmangū.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-24-4"
         }
       ],
       "notes": [],
@@ -816,37 +798,40 @@
     },
     {
       "date": "2026-11-25",
-      "title": "Přejezd do Kjóta a Fušimi Inari",
+      "title": "Přesun do Kjóta a centrum",
       "activities": [
         {
-          "id": "d1125-1",
-          "time": "10:00",
-          "title": "Vlakem Ósaka → Kjóto",
-          "place": "Ósaka",
+          "title": "Přesun do Kjóta a ubytování",
+          "place": "Kjóto",
           "lat": 34.7025,
           "lng": 135.4959,
           "type": "doprava",
-          "done": false
+          "note": "Higashi Otowa; Nijō jen při včasném příjezdu.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-25-1"
         },
         {
-          "id": "d1125-2",
-          "time": "13:00",
-          "title": "Fušimi Inari – tisíce bran torii",
-          "place": "Fušimi",
-          "lat": 34.9671,
-          "lng": 135.7727,
-          "type": "pamatka",
-          "done": false
+          "title": "Nishiki Market a Nishiki Tenmangū",
+          "place": "Centrum",
+          "lat": 35.005,
+          "lng": 135.7649,
+          "type": "jidlo",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-25-2"
         },
         {
-          "id": "d1125-3",
-          "time": "18:00",
-          "title": "Večerní Gion",
-          "place": "Gion",
-          "lat": 35.0037,
-          "lng": 135.775,
-          "type": "jine",
-          "done": false
+          "title": "Kawaramachi-dori",
+          "place": "Centrum",
+          "lat": null,
+          "lng": null,
+          "type": "nakupy",
+          "note": "Večer volný podle energie.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-25-3"
         }
       ],
       "notes": [],
@@ -854,47 +839,51 @@
     },
     {
       "date": "2026-11-26",
-      "title": "Kijomizu-dera a staré uličky",
+      "title": "Fushimi Inari a Higashiyama",
       "activities": [
         {
-          "id": "d1126-1",
-          "time": "08:30",
-          "title": "Chrám Kijomizu-dera",
-          "place": "Higašijama",
+          "title": "Fushimi Inari Taisha",
+          "place": "Fushimi",
+          "lat": 34.9671,
+          "lng": 135.7727,
+          "type": "pamatka",
+          "note": "Velmi brzký start.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-26-1"
+        },
+        {
+          "title": "Sanjūsangendō",
+          "place": "Higashiyama",
+          "lat": 34.98777778,
+          "lng": 135.77166667,
+          "type": "pamatka",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-26-2"
+        },
+        {
+          "title": "Kiyomizu-dera a staré uličky",
+          "place": "Higashiyama",
           "lat": 34.9949,
           "lng": 135.785,
           "type": "pamatka",
-          "done": false
+          "note": "Kōdai-ji podle času.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-26-3"
         },
         {
-          "id": "d1126-2",
-          "time": "10:30",
-          "title": "Uličky Sannenzaka a Ninenzaka",
-          "place": "Higašijama",
-          "lat": 34.996,
-          "lng": 135.781,
-          "type": "nakupy",
-          "done": false
-        },
-        {
-          "id": "d1126-3",
-          "time": "13:00",
-          "title": "Svatyně Jasaka",
+          "title": "Yasaka a večerní Gion",
           "place": "Gion",
           "lat": 35.0037,
           "lng": 135.7785,
           "type": "pamatka",
-          "done": false
-        },
-        {
-          "id": "d1126-4",
-          "time": "15:00",
-          "title": "Trh Nišiki",
-          "place": "Centrum",
-          "lat": 35.005,
-          "lng": 135.7649,
-          "type": "jidlo",
-          "done": false
+          "note": "Chion-in jen jako volitelná odbočka.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-26-4"
         }
       ],
       "notes": [],
@@ -902,37 +891,40 @@
     },
     {
       "date": "2026-11-27",
-      "title": "Arašijama a Zlatý pavilon",
+      "title": "Západní Kjóto",
       "activities": [
         {
-          "id": "d1127-1",
-          "time": "08:00",
-          "title": "Bambusový les Arašijama",
-          "place": "Arašijama",
-          "lat": 35.017,
-          "lng": 135.6713,
-          "type": "priroda",
-          "done": false
-        },
-        {
-          "id": "d1127-2",
-          "time": "09:30",
-          "title": "Chrám Tenrjú-dži",
-          "place": "Arašijama",
-          "lat": 35.0157,
-          "lng": 135.6738,
-          "type": "pamatka",
-          "done": false
-        },
-        {
-          "id": "d1127-3",
-          "time": "14:00",
-          "title": "Zlatý pavilon Kinkaku-dži",
+          "title": "Kinkaku-ji",
           "place": "Kita",
           "lat": 35.0394,
           "lng": 135.7292,
           "type": "pamatka",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-27-1"
+        },
+        {
+          "title": "Ryōan-ji",
+          "place": "Západní Kjóto",
+          "lat": 35.03444444,
+          "lng": 135.71833333,
+          "type": "pamatka",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-27-2"
+        },
+        {
+          "title": "Ninna-ji",
+          "place": "Západní Kjóto",
+          "lat": 35.03105556,
+          "lng": 135.71380556,
+          "type": "pamatka",
+          "note": "Pokud bude rezervace Nintendo Museum, může nahradit tento chrámový den.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-27-3"
         }
       ],
       "notes": [],
@@ -940,37 +932,40 @@
     },
     {
       "date": "2026-11-28",
-      "title": "Přejezd do Hirošimy, Park míru",
+      "title": "Hirošima a Park míru",
       "activities": [
         {
-          "id": "d1128-1",
-          "time": "09:30",
-          "title": "Šinkansen Kjóto → Hirošima",
-          "place": "Kjóto",
+          "title": "Přesun do Hirošimy",
+          "place": "Hirošima",
           "lat": 34.9858,
           "lng": 135.7588,
           "type": "doprava",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-28-1"
         },
         {
-          "id": "d1128-2",
-          "time": "13:30",
-          "title": "Park míru a Atomový dóm",
+          "title": "Peace Memorial Park a Atomic Bomb Dome",
           "place": "Hirošima",
           "lat": 34.3955,
           "lng": 132.4536,
           "type": "pamatka",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-28-2"
         },
         {
-          "id": "d1128-3",
-          "time": "19:00",
-          "title": "Okonomiyaki v Okonomimura",
+          "title": "Procházka podél řeky",
           "place": "Hirošima",
-          "lat": 34.3925,
-          "lng": 132.4605,
-          "type": "jidlo",
-          "done": false
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "note": "Orizuru Tower volitelně.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-28-3"
         }
       ],
       "notes": [],
@@ -978,19 +973,8 @@
     },
     {
       "date": "2026-11-29",
-      "title": "Výlet na Miyajimu",
-      "activities": [
-        {
-          "id": "d1129-1",
-          "time": "19:00",
-          "title": "Večeře v Hirošimě",
-          "place": "Hirošima",
-          "lat": 34.394,
-          "lng": 132.459,
-          "type": "jidlo",
-          "done": false
-        }
-      ],
+      "title": "Mijadžima",
+      "activities": [],
       "notes": [],
       "photos": [
         {
@@ -1001,37 +985,40 @@
     },
     {
       "date": "2026-11-30",
-      "title": "Přejezd do Fukuoky",
+      "title": "Muzeum v Hirošimě a Fukuoka",
       "activities": [
         {
-          "id": "d1130-1",
-          "time": "10:00",
-          "title": "Šinkansen Hirošima → Hakata",
+          "title": "Hiroshima Peace Memorial Museum",
           "place": "Hirošima",
-          "lat": 34.3978,
-          "lng": 132.4753,
-          "type": "doprava",
-          "done": false
+          "lat": 34.39166667,
+          "lng": 132.45194444,
+          "type": "pamatka",
+          "note": "Ráno před odjezdem.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-30-1"
         },
         {
-          "id": "d1130-2",
-          "time": "15:00",
-          "title": "Canal City Hakata",
+          "title": "Odpolední přesun do Fukuoky",
+          "place": "Fukuoka",
+          "lat": null,
+          "lng": null,
+          "type": "doprava",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-11-30-2"
+        },
+        {
+          "title": "Canal City Hakata a první procházka",
           "place": "Hakata",
           "lat": 33.5898,
           "lng": 130.4108,
-          "type": "nakupy",
-          "done": false
-        },
-        {
-          "id": "d1130-3",
-          "time": "19:00",
-          "title": "Pouliční stánky jatai v Nakasu",
-          "place": "Nakasu",
-          "lat": 33.5925,
-          "lng": 130.4069,
-          "type": "jidlo",
-          "done": false
+          "type": "jine",
+          "note": "Tōchō-ji podle energie, večer volný.",
+          "time": "",
+          "done": false,
+          "id": "brief-11-30-3"
         }
       ],
       "notes": [],
@@ -1039,37 +1026,40 @@
     },
     {
       "date": "2026-12-01",
-      "title": "Poslední celý den",
+      "title": "Óhori, Daimjó, Tenjin a Nakasu",
       "activities": [
         {
-          "id": "d1201-1",
-          "time": "10:00",
-          "title": "Park Óhori",
+          "title": "Óhori Park a Fukuoka Castle Ruins",
           "place": "Čúó",
-          "lat": 33.586,
-          "lng": 130.3765,
+          "lat": 33.585,
+          "lng": 130.38305556,
           "type": "priroda",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-12-01-1"
         },
         {
-          "id": "d1201-2",
-          "time": "13:00",
-          "title": "Svatyně Kušida",
-          "place": "Hakata",
-          "lat": 33.593,
-          "lng": 130.4106,
-          "type": "pamatka",
-          "done": false
+          "title": "Daimjó a Tenjin",
+          "place": "Fukuoka",
+          "lat": null,
+          "lng": null,
+          "type": "nakupy",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-12-01-2"
         },
         {
-          "id": "d1201-3",
-          "time": "17:00",
-          "title": "Fukuoka Tower",
-          "place": "Momočihama",
-          "lat": 33.5933,
-          "lng": 130.3515,
-          "type": "vyhled",
-          "done": false
+          "title": "Večerní Nakasu a yatai",
+          "place": "Nakasu",
+          "lat": 33.593647,
+          "lng": 130.405295,
+          "type": "jidlo",
+          "note": "Alternativou dne může být Dazaifu nebo Nanzō-in.",
+          "time": "",
+          "done": false,
+          "id": "brief-12-01-3"
         }
       ],
       "notes": [],
@@ -1077,31 +1067,83 @@
     },
     {
       "date": "2026-12-02",
-      "title": "Odlet domů",
+      "title": "Odlet z Fukuoky",
       "activities": [
         {
-          "id": "d1202-1",
+          "title": "Checkout a přesun na letiště",
+          "place": "Fukuoka",
+          "lat": 33.5859,
+          "lng": 130.451,
+          "type": "doprava",
+          "note": "",
           "time": "",
-          "title": "Na letiště Fukuoka",
+          "done": false,
+          "id": "brief-12-02-1"
+        },
+        {
+          "title": "Odlet z Fukuoky do Tchaj-peje",
           "place": "Letiště Fukuoka",
           "lat": 33.5859,
           "lng": 130.451,
           "type": "doprava",
-          "done": false
+          "note": "",
+          "time": "12:15",
+          "done": false,
+          "id": "brief-12-02-2"
         },
         {
-          "id": "d1202-2",
-          "time": "",
-          "title": "Let do Tchaj-peje a dál domů do Prahy",
-          "place": "Tchaj-pej → Praha",
+          "title": "Přestup a večerní let do Prahy",
+          "place": "",
           "lat": null,
           "lng": null,
           "type": "doprava",
-          "done": false
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-12-02-3"
         }
       ],
       "notes": [],
       "photos": []
+    },
+    {
+      "date": "2026-12-03",
+      "notes": [],
+      "photos": [],
+      "title": "Návrat do Prahy",
+      "activities": [
+        {
+          "title": "Ranní přílet do Prahy",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "doprava",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-12-03-1"
+        },
+        {
+          "title": "Návrat domů",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "note": "",
+          "time": "",
+          "done": false,
+          "id": "brief-12-03-2"
+        }
+      ],
+      "location": "Praha"
     }
-  ]
+  ],
+  "outbound": {
+    "date": "2026-11-14",
+    "title": "Odlet z Prahy přes Tchaj-pej"
+  },
+  "homecoming": {
+    "date": "2026-12-03",
+    "title": "Návrat do Prahy"
+  }
 }
