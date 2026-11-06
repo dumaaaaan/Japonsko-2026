@@ -338,7 +338,16 @@
         ]
       ],
       "photos": [],
-      "notes": []
+      "notes": [],
+      "coverPhoto": {
+        "src": "photos/kamakura-buddha.jpg",
+        "caption": "Velký Buddha v Kamakuře",
+        "author": "Alexandar Vujadinovic",
+        "source": "https://commons.wikimedia.org/wiki/File:The_Great_Buddha_of_Kamakura.jpg",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/"
+      },
+      "dateLabel": "Dle nálady"
     },
     {
       "id": "miyajima",
@@ -403,7 +412,15 @@
         ]
       ],
       "photos": [],
-      "notes": []
+      "notes": [],
+      "coverPhoto": {
+        "src": "photos/miyajima-torii.jpg",
+        "caption": "Brána torii ve vodě na Mijadžimě",
+        "author": "Immanuelle",
+        "source": "https://commons.wikimedia.org/wiki/File:Itsukushima_Shrine_Torii_in_the_water.jpg",
+        "license": "CC BY 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+      }
     }
   ],
   "days": [

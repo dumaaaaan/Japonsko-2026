@@ -717,10 +717,12 @@
       const b = baseById(t.baseId);
       const ts = tripStatus(t);
       const pct = ts.total ? Math.round((ts.done / ts.total) * 100) : 0;
-      const cover = t.photos[0] ? `<img src="${esc(S.previews[t.photos[0].src] || t.photos[0].src)}" alt="" loading="lazy">` : '';
+      const photo = t.coverPhoto || t.photos[0];
+      const cover = photo ? `<img src="${esc(S.previews[photo.src] || photo.src)}" alt="${esc(photo.caption || t.name)}" loading="lazy" decoding="async">` : '';
+      const credit = t.coverPhoto ? `<small style="color:var(--ink-soft)">Foto: <a href="${esc(photo.source)}" target="_blank" rel="noopener">${esc(photo.author)}</a> · <a href="${esc(photo.licenseUrl)}" target="_blank" rel="noopener">${esc(photo.license)}</a> · náhled, ořez v kartě</small>` : '';
       const when = t.date
         ? `📅 ${fmtLong(t.date)}`
-        : (t.candidateDates && t.candidateDates.length ? `Možné dny: ${fmtDateList(t.candidateDates)}` : 'Termín zatím není');
+        : (t.dateLabel ? esc(t.dateLabel) : t.candidateDates && t.candidateDates.length ? `Možné dny: ${fmtDateList(t.candidateDates)}` : 'Termín zatím není');
       const places = t.places.map((pl) => {
         const done = placeDone(pl, t);
         const inner = `<span class="dot">✔</span><span>${esc(pl.name)}</span>`;
@@ -762,6 +764,7 @@
           <div class="trip-card__body">
             <div class="trip-card__status"><span class="badge badge--${ts.cls}">${esc(ts.label)}</span></div>
             <div style="font-size:.9rem">${when}</div>
+            ${credit}
             ${t.description ? `<p class="trip-card__desc">${esc(t.description)}</p>` : ''}
             ${t.transport ? `<div style="font-size:.85rem;color:var(--ink-soft)">🚆 ${esc(t.transport)}</div>` : ''}
             <div>
