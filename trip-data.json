@@ -527,7 +527,28 @@
           "text": "První celý den v Japonsku: Meiji Jingū, Yoyogi Park, Takeshita Street, Cat Street, Omotesandó, seeen a Šibuja. Dali jsme si carbonara udon v Menchirashi. Shinjuku Gyoen jsme dnes nestihli."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-16-tokio-pres-koleje.jpg",
+          "caption": "Tokio přes koleje"
+        },
+        {
+          "src": "photos/2026-11-16-tokijske-ulicky.jpg",
+          "caption": "Procházka tokijskými uličkami"
+        },
+        {
+          "src": "photos/2026-11-16-shibuya-vecer.jpg",
+          "caption": "Večerní Šibuja"
+        },
+        {
+          "src": "photos/2026-11-16-menchirashi-carbonara-udon.jpg",
+          "caption": "Carbonara udon v Menchirashi"
+        },
+        {
+          "src": "photos/2026-11-16-spolecna-fotka.jpg",
+          "caption": "Společná fotka z Tokia"
+        }
+      ]
     },
     {
       "date": "2026-11-17",
