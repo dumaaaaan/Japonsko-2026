@@ -378,7 +378,7 @@
           "type": "doprava",
           "note": "",
           "time": "",
-          "done": false,
+          "done": true,
           "id": "brief-11-15-1"
         },
         {
@@ -389,7 +389,7 @@
           "type": "doprava",
           "note": "Ubytování poblíž Shimokitazawy.",
           "time": "",
-          "done": false,
+          "done": true,
           "id": "brief-11-15-2"
         },
         {
@@ -402,12 +402,34 @@
           "time": "",
           "done": false,
           "id": "brief-11-15-3"
+        },
+        {
+          "id": "actual-1115-walk",
+          "title": "Procházka po okolí ubytování",
+          "time": "",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "jine",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1115-ichiran",
+          "title": "Ichiran ramen",
+          "time": "",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "jidlo",
+          "done": true,
+          "note": ""
         }
       ],
       "notes": [
         {
           "time": "",
-          "text": "Ukázková poznámka – sem budeme psát krátké postřehy z každého dne. 🙂"
+          "text": "Přiletěli jsme do Japonska, ubytovali se a prošli se po okolí. Na jídlo jsme si dali Ichiran ramen."
         }
       ],
       "photos": [
@@ -422,26 +444,37 @@
       "title": "Meiji Jingū, Harajuku, Šibuja a Šindžuku",
       "activities": [
         {
-          "title": "Meiji Jingū a okolní zeleň",
+          "title": "Meiji Jingū a Yoyogi Park",
           "place": "Harajuku",
           "lat": 35.6764,
           "lng": 139.6993,
           "type": "pamatka",
-          "note": "Krátce také park Yoyogi.",
+          "note": "",
           "time": "",
-          "done": false,
+          "done": true,
           "id": "brief-11-16-1"
         },
         {
-          "title": "Harajuku → Omotesandó → Cat Street",
+          "title": "Takeshita Street a Cat Street",
           "place": "Harajuku",
           "lat": 35.6716,
           "lng": 139.7031,
           "type": "nakupy",
-          "note": "Takeshita Street a procházka směrem k Šibuji.",
+          "note": "Procházka přes Harajuku směrem k Šibuji.",
           "time": "",
-          "done": false,
+          "done": true,
           "id": "brief-11-16-2"
+        },
+        {
+          "id": "actual-1116-seeen",
+          "title": "seeen",
+          "time": "",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "nakupy",
+          "done": true,
+          "note": ""
         },
         {
           "title": "Šibuja",
@@ -451,8 +484,19 @@
           "type": "jine",
           "note": "",
           "time": "",
-          "done": false,
+          "done": true,
           "id": "brief-11-16-3"
+        },
+        {
+          "id": "actual-1116-menchirashi",
+          "title": "Carbonara udon v Menchirashi",
+          "time": "",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "jidlo",
+          "done": true,
+          "note": ""
         },
         {
           "title": "Shinjuku Gyoen a večerní Šindžuku",
@@ -464,9 +508,25 @@
           "time": "",
           "done": false,
           "id": "brief-11-16-4"
+        },
+        {
+          "id": "plan-1116-omotesando",
+          "title": "Omotesandó",
+          "time": "",
+          "place": "",
+          "lat": null,
+          "lng": null,
+          "type": "nakupy",
+          "done": false,
+          "note": "Z původního plánu; návštěva zatím nepotvrzená."
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "První celý den v Japonsku: Meiji Jingū, Yoyogi Park, Takeshita Street, Cat Street, seeen a Šibuja. Dali jsme si carbonara udon v Menchirashi."
+        }
+      ],
       "photos": []
     },
     {
