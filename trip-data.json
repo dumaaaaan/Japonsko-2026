@@ -504,7 +504,7 @@
           "lat": 35.685,
           "lng": 139.71,
           "type": "priroda",
-          "note": "Podle chuti obchody kolem Lumine nebo kino v Kabukičó.",
+          "note": "Shinjuku Gyoen jsme dnes nestihli. Podle chuti obchody kolem Lumine nebo kino v Kabukičó.",
           "time": "",
           "done": false,
           "id": "brief-11-16-4"
@@ -517,14 +517,14 @@
           "lat": null,
           "lng": null,
           "type": "nakupy",
-          "done": false,
-          "note": "Z původního plánu; návštěva zatím nepotvrzená."
+          "done": true,
+          "note": ""
         }
       ],
       "notes": [
         {
           "time": "",
-          "text": "První celý den v Japonsku: Meiji Jingū, Yoyogi Park, Takeshita Street, Cat Street, seeen a Šibuja. Dali jsme si carbonara udon v Menchirashi."
+          "text": "První celý den v Japonsku: Meiji Jingū, Yoyogi Park, Takeshita Street, Cat Street, Omotesandó, seeen a Šibuja. Dali jsme si carbonara udon v Menchirashi. Shinjuku Gyoen jsme dnes nestihli."
         }
       ],
       "photos": []
