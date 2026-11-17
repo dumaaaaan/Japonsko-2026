@@ -552,21 +552,103 @@
     },
     {
       "date": "2026-11-17",
-      "title": "Volnější Tokio / rezerva pro Fuji",
+      "title": "Deštivé Tokio: Asakusa, Akihabara a Ginza",
       "activities": [
         {
-          "title": "Volný program v Tokiu",
+          "id": "actual-1117-1",
+          "title": "Kielo Coffee",
+          "type": "jidlo",
+          "place": "Asakusa",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-2",
+          "title": "Kaminarimon a chrám Sensō-ji",
+          "type": "pamatka",
+          "place": "Asakusa",
+          "lat": 35.7148,
+          "lng": 139.7967,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-3",
+          "title": "Wagyu box s rýží",
+          "type": "jidlo",
           "place": "",
           "lat": null,
           "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-4",
+          "title": "Kappabashi: kuchyňské náčiní a keramika",
+          "type": "nakupy",
+          "place": "Kappabashi",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-5",
+          "title": "Pivo v Asahi Sky Room ve 22. patře",
+          "type": "jidlo",
+          "place": "Asakusa",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-6",
+          "title": "Herny v Akihabaře",
           "type": "jine",
-          "note": "Fuji nemá pevné datum; den výletu vybereme podle počasí.",
+          "place": "Akihabara",
+          "lat": 35.6984,
+          "lng": 139.7731,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-7",
+          "title": "Krátká procházka po Ginze",
+          "type": "jine",
+          "place": "Ginza",
+          "lat": 35.6717,
+          "lng": 139.765,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1117-skytree",
+          "title": "Skytree – vynecháno kvůli dešti",
+          "type": "vyhled",
+          "place": "Oshiage",
+          "lat": 35.7101,
+          "lng": 139.8107,
           "time": "",
           "done": false,
-          "id": "brief-11-17-1"
+          "note": "Kvůli dešti jsme návštěvu vynechali. Celá věž ani nebyla vidět."
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Od rána pršelo, takže jsme plán přizpůsobili počasí. Začali jsme v Asakuse v Kielo Coffee a přes Kaminarimon došli k chrámu Sensō-ji. K jídlu jsme si dali wagyu box s rýží a potom na Kappabashi prohlíželi kuchyňské náčiní a keramiku. U Asahi budovy jsme zašli na pivo do Sky Room ve 22. patře. Skytree jsme kvůli dešti vynechali – ani nebyla vidět celá. Pak jsme prošli několik heren v Akihabaře, krátce se prošli po Ginze a zamířili na ubytování. Snad už zítra bude počasí lepší."
+        }
+      ],
       "photos": []
     },
     {
