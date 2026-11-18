@@ -653,54 +653,92 @@
     },
     {
       "date": "2026-11-18",
-      "title": "Asakusa, Akihabara a Skytree",
+      "title": "Hanegi, Gōtokuji, Todoroki a Nakameguro",
       "activities": [
         {
-          "title": "Sensō-ji a historická Asakusa",
-          "place": "Asakusa",
-          "lat": 35.7148,
-          "lng": 139.7967,
-          "type": "pamatka",
-          "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-18-1"
-        },
-        {
-          "title": "Kappabashi / Asahi Sky Room",
-          "place": "Asakusa",
+          "id": "actual-1118-1",
+          "title": "Snídaně v Hanegi Parku",
+          "place": "Hanegi",
+          "type": "priroda",
+          "note": "Procházka do parku a snídaně.",
           "lat": null,
           "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1118-2",
+          "title": "Pěšky do chrámu Gōtokuji",
+          "place": "Setagaya",
+          "type": "pamatka",
+          "note": "Chrám známý soškami maneki-neko.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1118-3",
+          "title": "Todoroki Valley",
+          "place": "Todoroki",
+          "type": "priroda",
+          "note": "Procházka údolím a krásné podzimní barvy.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1118-4",
+          "title": "Káva v ONIBUS Coffee",
+          "place": "Nakameguro",
+          "type": "jidlo",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1118-5",
+          "title": "Procházka podél řeky v Nakameguru",
+          "place": "Nakameguro",
           "type": "jine",
-          "note": "Podle nálady keramika v Dengama, nebo vyhlídka a pivo.",
+          "note": "",
+          "lat": 35.644,
+          "lng": 139.699,
           "time": "",
-          "done": false,
-          "id": "brief-11-18-2"
+          "done": true
         },
         {
-          "title": "Akihabara a GiGO",
-          "place": "Akihabara",
-          "lat": 35.6984,
-          "lng": 139.7731,
-          "type": "nakupy",
+          "id": "actual-1118-6",
+          "title": "Přes Daikanyamu směrem do Ebisu",
+          "place": "Daikanyama / Ebisu",
+          "type": "jine",
           "note": "",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-18-3"
+          "done": true
         },
         {
-          "title": "Večerní Skytree a Solamachi",
-          "place": "Oshiage",
-          "lat": 35.7101,
-          "lng": 139.8107,
-          "type": "vyhled",
-          "note": "",
+          "id": "actual-1118-7",
+          "title": "Henry’s Burger",
+          "place": "",
+          "type": "jidlo",
+          "note": "Zastávka po cestě do Ebisu.",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-18-4"
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Dnes jsme se prošli do Hanegi Parku, kde jsme snědli snídani. Pak jsme pěšky pokračovali do chrámu Gōtokuji, známého soškami maneki-neko. Odtud jsme vyrazili do Todoroki Valley – procházka byla super a podzimní barvy krásné. V Nakameguru jsme si dali kávu v ONIBUS Coffee a prošli se čtvrtí podél řeky. Přes Daikanyamu jsme pokračovali směrem do Ebisu, cestou se zastavili v Henry’s Burger a pak vyrazili domů."
+        }
+      ],
       "photos": []
     },
     {
