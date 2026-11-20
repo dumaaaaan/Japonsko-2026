@@ -207,3 +207,11 @@ a otevřete `http://localhost:8000`.
 - Písma: Google Fonts (zdarma); bez internetu se použije systémové písmo.
 - Data se načítají bez cache, takže rodiče po obnovení stránky vidí nejnovější verzi (GitHub Pages může mít zpoždění do ~10 minut).
 - Hodiny v hlavičce ukazují čas v Japonsku a v Česku.
+
+## Správa webu přes Codex
+
+Web lze upravovat pomocí Codexu z telefonu, například z iPhonu, bez ručního stahování, úprav a nahrávání souborů. S propojeným GitHubem stačí uvést repozitář `dumaaaaan/Japonsko-2026` a česky popsat požadovanou změnu.
+
+Například: „K 18. listopadu 2026 přidej poznámku: Dnes jsme navštívili Asakusu. Zachovej ostatní program i vzhled a připrav pull request.“ Fotografie přiložte k zadání s datem a popiskem.
+
+Codex zkontroluje změny a podle dostupných oprávnění vytvoří commit a pull request. Po sloučení do `main` web zveřejní GitHub Pages. Existující itinerář, fotografie ani funkce nemažte bez výslovného souhlasu vlastníka. Režim úprav na samotném webu ukládá pouze místní koncept v prohlížeči; Codex ho automaticky nepřebírá.
