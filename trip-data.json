@@ -161,16 +161,18 @@
     },
     {
       "id": "kamakura",
-      "name": "Kamakura + Enoshima",
-      "nameJp": "鎌倉・江の島",
+      "name": "Kamakura a pobřeží",
+      "nameJp": "鎌倉",
       "baseId": "tokio",
-      "date": null,
-      "status": "unplanned",
+      "date": "2026-11-21",
+      "status": "fixed",
       "icon": "⛩️",
       "color": "#a0522d",
-      "candidateDates": [],
-      "description": "Svatyně, Hase-dera, Velký Buddha a pobřežní Enošima.",
-      "transport": "Vlakem z Tokia, po pobřeží Enoden; návrat šónanským monorailem.",
+      "candidateDates": [
+        "2026-11-21"
+      ],
+      "description": "Tsurugaoka Hachimangū, Hase-dera a Velký Buddha, potom káva u pobřeží a procházka k pláži Shichirigahama.",
+      "transport": "Ráno z Tokia do Kamakury, večer zpět do Tokia.",
       "places": [
         {
           "id": "kam-1",
@@ -178,7 +180,7 @@
           "lat": 35.326,
           "lng": 139.5565,
           "note": "Hlavní svatyně Kamakury",
-          "visited": false
+          "visited": true
         },
         {
           "id": "kam-3",
@@ -186,7 +188,7 @@
           "lat": 35.3126,
           "lng": 139.5332,
           "note": "Chrám s výhledem na moře",
-          "visited": false
+          "visited": true
         },
         {
           "id": "kam-4",
@@ -194,7 +196,7 @@
           "lat": 35.3167,
           "lng": 139.5359,
           "note": "Bronzová socha Buddhy",
-          "visited": false
+          "visited": true
         },
         {
           "id": "kam-6",
@@ -203,6 +205,12 @@
           "lng": 139.4803,
           "note": "Ostrov se svatyní a výhledy",
           "visited": false
+        },
+        {
+          "id": "kam-shichirigahama",
+          "name": "Pobřeží a pláž Shichirigahama",
+          "note": "Procházka po pláži po kávě v Melting Pot.",
+          "visited": true
         }
       ],
       "route": [
@@ -221,10 +229,6 @@
         [
           35.3167,
           139.5359
-        ],
-        [
-          35.2992,
-          139.4803
         ]
       ],
       "photos": [],
@@ -237,7 +241,7 @@
         "license": "CC0 1.0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
-      "hideDate": true
+      "hideDate": false
     },
     {
       "id": "miyajima",
@@ -913,43 +917,70 @@
     },
     {
       "date": "2026-11-21",
-      "title": "Shimokitazawa, Gōtokuji a Nakameguro",
+      "title": "Kamakura, pobřeží a poslední večer v Tokiu",
       "activities": [
         {
-          "title": "Shimokitazawa",
-          "place": "Shimokitazawa",
-          "lat": 35.6614,
-          "lng": 139.668,
-          "type": "nakupy",
+          "id": "actual-1121-morning",
+          "title": "Ranní cesta do Kamakury",
+          "place": "Kamakura",
+          "type": "doprava",
           "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-21-1"
-        },
-        {
-          "title": "Gōtokuji",
-          "place": "Setagaya",
           "lat": null,
           "lng": null,
-          "type": "pamatka",
-          "note": "Chrám s kočkami maneki-neko.",
           "time": "",
-          "done": false,
-          "id": "brief-11-21-2"
+          "done": true
         },
         {
-          "title": "Nakameguro",
-          "place": "Nakameguro",
-          "lat": 35.644,
-          "lng": 139.699,
-          "type": "jine",
-          "note": "Volitelně Daikanyama, večer volný poblíž ubytování.",
+          "id": "actual-1121-eeny",
+          "title": "Snídaně v eeny",
+          "place": "Kamakura",
+          "type": "jidlo",
+          "note": "",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-21-3"
+          "done": true
+        },
+        {
+          "id": "actual-1121-meltingpot",
+          "title": "Káva v Melting Pot",
+          "place": "Pobřeží",
+          "type": "jidlo",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1121-return",
+          "title": "Návrat do Tokia",
+          "place": "Tokio",
+          "type": "doprava",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1121-shibuya",
+          "title": "Večerní procházka po Šibuji a večeře",
+          "place": "Šibuja",
+          "type": "jine",
+          "note": "Po večeři návrat na ubytování před brzkým vstáváním.",
+          "lat": 35.6595,
+          "lng": 139.7005,
+          "time": "",
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Poslední den před odjezdem z Tokia jsme začali ranní cestou do Kamakury a snídaní v podniku eeny. Odtud jsme vyrazili do svatyně Tsurugaoka Hachimangū, pak do chrámu Hase-dera a k Velkému Buddhovi v Kótoku-in. Pokračovali jsme na pobřeží, dali si kávu v Melting Pot a prošli se po pláži směrem k Shichirigahamě. Po návratu do Tokia jsme ještě prošli Šibuju, dali si večeři a zamířili domů. Byl to opravdu náročný den – a ráno nás čekalo další brzké vstávání."
+        }
+      ],
       "photos": []
     },
     {
