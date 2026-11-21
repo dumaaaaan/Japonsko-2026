@@ -110,27 +110,23 @@
       "name": "Fuji / Kawaguchiko",
       "nameJp": "富士山",
       "baseId": "tokio",
-      "date": null,
-      "status": "weather",
+      "date": "2026-11-19",
+      "status": "fixed",
       "icon": "🗻",
       "color": "#3d6bb3",
       "candidateDates": [
-        "2026-11-16",
-        "2026-11-17",
-        "2026-11-18",
-        "2026-11-20",
-        "2026-11-21"
+        "2026-11-19"
       ],
-      "description": "Hlavně kolo kolem jezera Kawaguči a Oishi Park. Den vybereme podle počasí místo tokijského programu; další vyhlídky jen podle viditelnosti a energie.",
-      "transport": "Vlakem (Fuji Excursion) nebo dálkovým autobusem ze Šindžuku, cca 2 h",
+      "description": "Pěšky od nádraží Kawaguchiko podél jezera až do Oishi Parku. Místo původně plánovaného kola jsme zvolili procházku; po rozplynutí mraků se Fuji ukázala v plné kráse.",
+      "transport": "Vlakem z Tokia; kolem jezera pěšky, zpět k nádraží autobusem.",
       "places": [
         {
           "id": "fuji-5",
-          "name": "Kolo kolem jezera Kawaguči",
+          "name": "Pěšky podél jezera Kawaguči",
           "lat": 35.508,
           "lng": 138.764,
-          "note": "Kola se půjčují u stanice Kawaguchiko",
-          "visited": false
+          "note": "Od vlakového nádraží až do Oishi Parku; kola jsme si nakonec nepůjčili.",
+          "visited": true
         },
         {
           "id": "fuji-6",
@@ -138,7 +134,7 @@
           "lat": 35.5232,
           "lng": 138.7417,
           "note": "Park na severním břehu jezera s výhledem na Fuji",
-          "visited": false
+          "visited": true
         }
       ],
       "route": [
@@ -168,13 +164,11 @@
       "name": "Kamakura + Enoshima",
       "nameJp": "鎌倉・江の島",
       "baseId": "tokio",
-      "date": "2026-11-19",
-      "status": "planned",
+      "date": null,
+      "status": "unplanned",
       "icon": "⛩️",
       "color": "#a0522d",
-      "candidateDates": [
-        "2026-11-19"
-      ],
+      "candidateDates": [],
       "description": "Svatyně, Hase-dera, Velký Buddha a pobřežní Enošima.",
       "transport": "Vlakem z Tokia, po pobřeží Enoden; návrat šónanským monorailem.",
       "places": [
@@ -242,7 +236,8 @@
         "source": "https://commons.wikimedia.org/wiki/File:Kamakura_koukou_mae_Fumikiri_-_02.jpg",
         "license": "CC0 1.0",
         "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
-      }
+      },
+      "hideDate": true
     },
     {
       "id": "miyajima",
@@ -743,9 +738,59 @@
     },
     {
       "date": "2026-11-19",
-      "title": "Kamakura a Enošima",
-      "activities": [],
-      "notes": [],
+      "title": "Pěšky kolem Kawaguchika s výhledy na Fuji",
+      "activities": [
+        {
+          "id": "actual-1119-train",
+          "title": "Brzká cesta vlakem k jezeru Kawaguchiko",
+          "type": "doprava",
+          "place": "Kawaguchiko",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1119-bus",
+          "title": "Návrat autobusem k vlakovému nádraží",
+          "type": "doprava",
+          "place": "Kawaguchiko",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1119-burger",
+          "title": "Burger před cestou zpět",
+          "type": "jidlo",
+          "place": "Kawaguchiko",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1119-return",
+          "title": "Vlakem zpět do Tokia",
+          "type": "doprava",
+          "place": "Kawaguchiko",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        }
+      ],
+      "notes": [
+        {
+          "time": "",
+          "text": "Vstávali jsme dříve, protože nás čekala cesta k jezeru Kawaguchiko u posvátné hory Fuji. Původně jsme si chtěli půjčit kola, ale nakonec jsme se rozhodli jít pěšky – a bylo to nejlepší rozhodnutí. Od vlakového nádraží jsme došli až k Oishi Parku a cestou navštívili známá místa kolem jezera. Vrcholek Fuji-san byl chvílemi zahalený mraky, ale později se vyjasnilo a hora byla nádherně vidět. Zpět k nádraží jsme se svezli autobusem, dali si výborný burger a počkali na vlak do Tokia."
+        }
+      ],
       "photos": []
     },
     {
