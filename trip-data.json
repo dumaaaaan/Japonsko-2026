@@ -813,7 +813,24 @@
           "text": "Vstávali jsme dříve, protože nás čekala cesta k jezeru Kawaguchiko u posvátné hory Fuji. Původně jsme si chtěli půjčit kola, ale nakonec jsme se rozhodli jít pěšky – a bylo to nejlepší rozhodnutí. Od vlakového nádraží jsme došli až k Oishi Parku a cestou navštívili známá místa kolem jezera. Vrcholek Fuji-san byl chvílemi zahalený mraky, ale později se vyjasnilo a hora byla nádherně vidět. Zpět k nádraží jsme se svezli autobusem, dali si výborný burger a počkali na vlak do Tokia. Po návratu od Fuji jsme vyrazili do Šindžuku, dali si večeři v Sushiro a potom se šli podívat na videomapping na Tokyo Metropolitan Government Building."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-19-fuji.jpg",
+          "caption": "Výhled na Fuji"
+        },
+        {
+          "src": "photos/2026-11-19-auto-a-fuji.jpg",
+          "caption": "Auto a Fuji v pozadí"
+        },
+        {
+          "src": "photos/2026-11-19-burger.jpg",
+          "caption": "Zastávka na burger v Kawaguchiku"
+        },
+        {
+          "src": "photos/2026-11-19-shinjuku-vecer.jpg",
+          "caption": "Večerní Šindžuku"
+        }
+      ]
     },
     {
       "date": "2026-11-20",
