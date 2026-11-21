@@ -783,12 +783,34 @@
           "time": "",
           "done": true,
           "note": ""
+        },
+        {
+          "id": "actual-1119-sushiro",
+          "title": "Večeře v Sushiro v Šindžuku",
+          "place": "Šindžuku",
+          "type": "jidlo",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": "Po návratu z výletu k Fuji."
+        },
+        {
+          "id": "actual-1119-videomapping",
+          "title": "Videomapping na Tokyo Metropolitan Government Building",
+          "place": "Šindžuku",
+          "type": "jine",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": "Večerní projekce na budově tokijské metropolitní vlády."
         }
       ],
       "notes": [
         {
           "time": "",
-          "text": "Vstávali jsme dříve, protože nás čekala cesta k jezeru Kawaguchiko u posvátné hory Fuji. Původně jsme si chtěli půjčit kola, ale nakonec jsme se rozhodli jít pěšky – a bylo to nejlepší rozhodnutí. Od vlakového nádraží jsme došli až k Oishi Parku a cestou navštívili známá místa kolem jezera. Vrcholek Fuji-san byl chvílemi zahalený mraky, ale později se vyjasnilo a hora byla nádherně vidět. Zpět k nádraží jsme se svezli autobusem, dali si výborný burger a počkali na vlak do Tokia."
+          "text": "Vstávali jsme dříve, protože nás čekala cesta k jezeru Kawaguchiko u posvátné hory Fuji. Původně jsme si chtěli půjčit kola, ale nakonec jsme se rozhodli jít pěšky – a bylo to nejlepší rozhodnutí. Od vlakového nádraží jsme došli až k Oishi Parku a cestou navštívili známá místa kolem jezera. Vrcholek Fuji-san byl chvílemi zahalený mraky, ale později se vyjasnilo a hora byla nádherně vidět. Zpět k nádraží jsme se svezli autobusem, dali si výborný burger a počkali na vlak do Tokia. Po návratu od Fuji jsme vyrazili do Šindžuku, dali si večeři v Sushiro a potom se šli podívat na videomapping na Tokyo Metropolitan Government Building."
         }
       ],
       "photos": []
