@@ -795,54 +795,81 @@
     },
     {
       "date": "2026-11-20",
-      "title": "Toyosu, Odaiba, Ginza a Hibiya",
+      "title": "Toyosu, Odaiba, Tokyo Tower a Ginza",
       "activities": [
         {
-          "title": "Toyosu Market",
+          "id": "actual-1120-toyosu",
+          "title": "Toyosu Market, střešní lázeň a oběd",
           "place": "Toyosu",
+          "type": "jidlo",
+          "note": "Prohlídka stánků, lázeň na nohy na střeše a oběd.",
           "lat": 35.644167,
           "lng": 139.783611,
-          "type": "jidlo",
-          "note": "",
           "time": "",
-          "done": false,
-          "id": "brief-11-20-1"
+          "done": true
         },
         {
-          "title": "Odaiba a Rainbow Bridge",
+          "id": "actual-1120-odaiba",
+          "title": "Jednokolejkou na Odaibu",
           "place": "Odaiba",
+          "type": "vyhled",
+          "note": "Výhledy na panorama města.",
           "lat": 35.63,
           "lng": 139.775,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1120-tower",
+          "title": "Tokyo Tower",
+          "place": "Minato",
           "type": "vyhled",
           "note": "",
+          "lat": 35.6586,
+          "lng": 139.7454,
           "time": "",
-          "done": false,
-          "id": "brief-11-20-2"
+          "done": true
         },
         {
-          "title": "Tsukiji Outer Market",
-          "place": "Tsukiji",
-          "lat": 35.6654,
-          "lng": 139.7707,
-          "type": "jidlo",
+          "id": "actual-1120-azabudai",
+          "title": "Azabudai Hills a nová pobočka Famima",
+          "place": "Azabudai Hills",
+          "type": "jine",
+          "note": "Pěšky od Tokyo Tower.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1120-ginza",
+          "title": "Káva a osmipatrové papírnictví v Ginze",
+          "place": "Ginza",
+          "type": "nakupy",
           "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-20-3"
-        },
-        {
-          "title": "Ginza a večerní Hibiya",
-          "place": "Ginza / Hibiya",
           "lat": 35.6717,
           "lng": 139.765,
-          "type": "jine",
-          "note": "Itoya, světla Hibiya; Tokyo Tower či Roppongi jen při dostatku času.",
           "time": "",
-          "done": false,
-          "id": "brief-11-20-4"
+          "done": true
+        },
+        {
+          "id": "actual-1120-forum",
+          "title": "Přes Tokyo International Forum k Tokyo Station",
+          "place": "Marunouchi",
+          "type": "jine",
+          "note": "Procházka před návratem na ubytování.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Navštívili jsme Toyosu Market, prošli si stánky a dali si oběd. Na střeše budovy jsem si dopřál lázeň na nohy. Potom jsme se vydali jednokolejkou na Odaibu a užili si parádní výhledy na panorama města. Pokračovali jsme k Tokyo Tower a odtud pěšky do Azabudai Hills podívat se na novou pobočku Famima. Pak jsme jeli na Ginzu, dali si kávu a prošli osmipatrové papírnictví. Přes Tokyo International Forum jsme došli k Tokyo Station a zamířili na ubytování."
+        }
+      ],
       "photos": []
     },
     {
