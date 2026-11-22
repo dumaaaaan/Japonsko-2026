@@ -985,54 +985,81 @@
     },
     {
       "date": "2026-11-22",
-      "title": "Nozomi do Ósaky a jižní Ósaka",
+      "title": "První den v Ósace: Umeda a večerní Šinsekai",
       "activities": [
         {
-          "title": "Nozomi 113: příjezd do Šin-Ósaky",
-          "place": "Šin-Ósaka",
+          "id": "actual-1122-shinkansen",
+          "title": "Ranní šinkansen do Ósaky",
+          "place": "Tokio → Ósaka",
+          "type": "doprava",
+          "note": "Krásný výhled na Fuji – poslední setkání s horou na této cestě.",
           "lat": null,
           "lng": null,
-          "type": "doprava",
-          "note": "Přesun z Tokia, odložení zavazadel.",
-          "time": "08:48",
-          "done": false,
-          "id": "brief-11-22-1"
+          "time": "",
+          "done": true
         },
         {
-          "title": "Kuromon Market",
-          "place": "Nippombaši",
-          "lat": 34.6654,
-          "lng": 135.5066,
+          "id": "actual-1122-coffee",
+          "title": "Káva po příjezdu do Ósaky",
+          "place": "Ósaka",
           "type": "jidlo",
           "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-22-2"
-        },
-        {
-          "title": "Namba Yasaka Jinja",
-          "place": "Namba",
           "lat": null,
           "lng": null,
-          "type": "pamatka",
-          "note": "Volitelně také Ikutama Shrine.",
           "time": "",
-          "done": false,
-          "id": "brief-11-22-3"
+          "done": true
         },
         {
-          "title": "Shinsaibashi, Dotonbori a Hozenji Yokocho",
-          "place": "Namba",
-          "lat": 34.6687,
-          "lng": 135.5013,
+          "id": "actual-1122-umeda",
+          "title": "Grand Green Osaka a Umeda Sky Building",
+          "place": "Umeda",
+          "type": "jine",
+          "note": "Průzkum oblasti a oběd u Sky Building.",
+          "lat": 34.7053,
+          "lng": 135.4906,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1122-tenjinbashisuji",
+          "title": "Tenjinbashisuji Shopping Street",
+          "place": "Tenma",
+          "type": "nakupy",
+          "note": "Procházka nákupní ulicí a káva na jejím konci.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1122-checkin",
+          "title": "Ubytování a odpočinek",
+          "place": "Ósaka",
           "type": "jine",
           "note": "",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-22-4"
+          "done": true
+        },
+        {
+          "id": "actual-1122-shinsekai",
+          "title": "Večerní Šinsekai",
+          "place": "Šinsekai",
+          "type": "jine",
+          "note": "Poté zpět na ubytování načerpat síly na další den.",
+          "lat": 34.6525,
+          "lng": 135.5063,
+          "time": "",
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Vstávali jsme velmi brzy, abychom stihli šinkansen do Ósaky. Z vlaku byl krásný výhled na Fuji, se kterou jsme se na této cestě viděli naposledy. Po příjezdu jsme si dali kávu a vyrazili prozkoumat Grand Green Osaka a Umeda Sky Building. U Sky Building jsme poobědvali a pokračovali na Tenjinbashisuji Shopping Street. Na konci ulice jsme si dali další kávu a jeli se ubytovat. Po odpočinku jsme vyrazili do večerního Šinsekai a pak už zpět na ubytování načerpat síly na další den."
+        }
+      ],
       "photos": []
     },
     {
