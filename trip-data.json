@@ -1064,54 +1064,92 @@
     },
     {
       "date": "2026-11-23",
-      "title": "Shitennō-ji, Šinsekai a teamLab",
+      "title": "Ósacký hrad, nákupy a večerní teamLab",
       "activities": [
         {
-          "title": "Shitennō-ji",
-          "place": "Tennoji",
-          "lat": 34.6539,
-          "lng": 135.51645,
+          "id": "actual-1123-castle",
+          "title": "Ósacký hrad a park",
+          "place": "Ósaka",
           "type": "pamatka",
-          "note": "",
+          "note": "Ranní procházka krásným parkem.",
+          "lat": 34.6873,
+          "lng": 135.5262,
           "time": "",
-          "done": false,
-          "id": "brief-11-23-1"
+          "done": true
         },
         {
-          "title": "Šinsekai a Tsutenkaku",
-          "place": "Šinsekai",
-          "lat": 34.6525,
-          "lng": 135.5063,
+          "id": "actual-1123-lunch",
+          "title": "Oběd a káva v My neighbor",
+          "place": "Ósaka",
+          "type": "jidlo",
+          "note": "Sandwich s wagyu hovězím a kuřecí sandwich.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1123-shopping",
+          "title": "Shinsaibashi a Amerikamura",
+          "place": "Ósaka",
+          "type": "nakupy",
+          "note": "Obchůdky a několik second-handů.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1123-mitsugu",
+          "title": "Krátká zastávka u chrámu Mitsugu",
+          "place": "Ósaka",
+          "type": "pamatka",
+          "note": "Chrám zasvěcený pejskům; název podle našeho zápisku.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1123-rest",
+          "title": "Odpočinek na ubytování",
+          "place": "Ósaka",
           "type": "jine",
           "note": "",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-23-2"
+          "done": true
         },
         {
-          "title": "Abeno Harukas",
-          "place": "Tennoji",
-          "lat": 34.646,
-          "lng": 135.51338889,
-          "type": "vyhled",
-          "note": "Vyhlídka volitelně.",
-          "time": "",
-          "done": false,
-          "id": "brief-11-23-3"
-        },
-        {
+          "id": "actual-1123-teamlab",
           "title": "teamLab Botanical Garden Osaka",
           "place": "Nagai",
+          "type": "jine",
+          "note": "Večerní světelné instalace zakomponované do parku.",
           "lat": 34.61055556,
           "lng": 135.52166667,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1123-dotonbori",
+          "title": "Večerní Dotonbori",
+          "place": "Namba",
           "type": "jine",
-          "note": "Pevná večerní rezervace.",
-          "time": "18:00",
-          "done": false,
-          "id": "brief-11-23-4"
+          "note": "Procházka po okolí a návrat na ubytování.",
+          "lat": 34.6687,
+          "lng": 135.5013,
+          "time": "",
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Den jsme začali Ósackým hradem, který stojí v krásném parku. Po procházce jsme zamířili na oběd do kavárny My neighbor, kde jsme si dali sandwich s wagyu hovězím, kuřecí sandwich a kávu. Potom jsme prošli obchůdky a několik sekáčů v Shinsaibashi a Amerikamuře. Cestou na metro jsme se krátce zastavili u chrámu Mitsugu, zasvěceného pejskům. Byli jsme dost unavení, a tak jsme si zajeli odpočinout na ubytování. Večer jsme vyrazili do teamLab Botanical Garden Osaka na světelné instalace zakomponované do místního parku. Odtud jsme pokračovali na známou ulici Dotonbori, prošli se po okolí a pak se vrátili na ubytování."
+        }
+      ],
       "photos": []
     },
     {
