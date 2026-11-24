@@ -1154,54 +1154,59 @@
     },
     {
       "date": "2026-11-24",
-      "title": "Hrad Ósaka, Nakanoshima a Umeda",
+      "title": "Deštivý odpočinkový den v Ósace",
       "activities": [
         {
-          "title": "Hrad Ósaka a park",
+          "id": "actual-1124-rest",
+          "title": "Pomalé ráno a odpočinek na ubytování",
+          "type": "jine",
           "place": "Ósaka",
-          "lat": 34.6873,
-          "lng": 135.5262,
-          "type": "pamatka",
-          "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-24-1"
-        },
-        {
-          "title": "Nakanoshima",
-          "place": "Nakanoshima",
           "lat": null,
           "lng": null,
-          "type": "jine",
-          "note": "Podle chuti Museum of Art.",
           "time": "",
-          "done": false,
-          "id": "brief-11-24-2"
+          "done": true,
+          "note": "Od rána hodně pršelo, takže jsme si přispali."
         },
         {
-          "title": "Umeda Sky Building a Grand Green Osaka",
-          "place": "Umeda",
-          "lat": 34.7053,
-          "lng": 135.4906,
-          "type": "vyhled",
-          "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-24-3"
-        },
-        {
-          "title": "Tenma a Tenjinbashi-suji",
-          "place": "Tenma",
+          "id": "actual-1124-shopping",
+          "title": "Odpoledne v nákupním centru",
+          "type": "nakupy",
+          "place": "Ósaka",
           "lat": null,
           "lng": null,
-          "type": "jine",
-          "note": "Večerní procházka včetně Osaka Tenmangū.",
           "time": "",
-          "done": false,
-          "id": "brief-11-24-4"
+          "done": true,
+          "note": "Nákupy a čas strávený uvnitř kvůli dešti."
+        },
+        {
+          "id": "actual-1124-gigo",
+          "title": "Automaty v GiGO",
+          "type": "jine",
+          "place": "Ósaka",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
+        },
+        {
+          "id": "actual-1124-food",
+          "title": "Jídlo a večerní návrat na ubytování",
+          "type": "jidlo",
+          "place": "Ósaka",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true,
+          "note": ""
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Od rána hodně pršelo, takže jsme déle spali a váleli se na ubytování. Odpoledne jsme vyrazili do nákupního centra, kde jsme strávili dost času: nakoupili jsme, zahráli si automaty v GiGO a dali si jídlo. Večer jsme se vrátili na ubytování. Kvůli počasí byl dnešek spíše odpočinkový, ale bylo to potřeba."
+        }
+      ],
       "photos": []
     },
     {
