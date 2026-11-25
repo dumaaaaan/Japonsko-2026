@@ -1132,7 +1132,24 @@
           "text": "Vstávali jsme velmi brzy, abychom stihli šinkansen do Ósaky. Z vlaku byl krásný výhled na Fuji, se kterou jsme se na této cestě viděli naposledy. Po příjezdu jsme si dali kávu a vyrazili prozkoumat Grand Green Osaka a Umeda Sky Building. U Sky Building jsme poobědvali a pokračovali na Tenjinbashisuji Shopping Street. Na konci ulice jsme si dali další kávu a jeli se ubytovat. Po odpočinku jsme vyrazili do večerního Šinsekai a pak už zpět na ubytování načerpat síly na další den."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-22-grand-green-osaka.jpg",
+          "caption": "Grand Green Osaka"
+        },
+        {
+          "src": "photos/2026-11-22-umeda-sky-building.jpg",
+          "caption": "Umeda Sky Building"
+        },
+        {
+          "src": "photos/2026-11-22-shinsekai-vecer.jpg",
+          "caption": "Večerní Šinsekai a Tsutenkaku"
+        },
+        {
+          "src": "photos/2026-11-22-takoyaki.jpg",
+          "caption": "Takoyaki v Ósace"
+        }
+      ]
     },
     {
       "date": "2026-11-23",
