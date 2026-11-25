@@ -755,7 +755,24 @@
           "text": "Dnes jsme se prošli do Hanegi Parku, kde jsme snědli snídani. Pak jsme pěšky pokračovali do chrámu Gōtokuji, známého soškami maneki-neko. Odtud jsme vyrazili do Todoroki Valley – procházka byla super a podzimní barvy krásné. V Nakameguru jsme si dali kávu v ONIBUS Coffee a prošli se čtvrtí podél řeky. Přes Daikanyamu jsme pokračovali směrem do Ebisu, cestou se zastavili v Henry’s Burger a pak vyrazili domů."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-18-gotokuji-manekineko.jpg",
+          "caption": "Maneki-neko v chrámu Gōtokuji"
+        },
+        {
+          "src": "photos/2026-11-18-todoroki-podzim.jpg",
+          "caption": "Podzimní barvy v Todoroki Valley"
+        },
+        {
+          "src": "photos/2026-11-18-onibus-coffee.jpg",
+          "caption": "ONIBUS Coffee v Nakameguru"
+        },
+        {
+          "src": "photos/2026-11-18-tokio-prochazka.jpg",
+          "caption": "Podvečerní procházka Tokiem"
+        }
+      ]
     },
     {
       "date": "2026-11-19",
