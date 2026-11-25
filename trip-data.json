@@ -1300,43 +1300,114 @@
     },
     {
       "date": "2026-11-25",
-      "title": "Přesun do Kjóta a centrum",
+      "title": "První den v Kjótu a večerní Kiyomizu-dera",
       "activities": [
         {
-          "title": "Přesun do Kjóta a ubytování",
+          "id": "actual-1125-arrival",
+          "title": "Ranní příjezd do Kjóta",
           "place": "Kjóto",
-          "lat": 34.7025,
-          "lng": 135.4959,
           "type": "doprava",
-          "note": "Higashi Otowa; Nijō jen při včasném příjezdu.",
-          "time": "",
-          "done": false,
-          "id": "brief-11-25-1"
-        },
-        {
-          "title": "Nishiki Market a Nishiki Tenmangū",
-          "place": "Centrum",
-          "lat": 35.005,
-          "lng": 135.7649,
-          "type": "jidlo",
           "note": "",
-          "time": "",
-          "done": false,
-          "id": "brief-11-25-2"
-        },
-        {
-          "title": "Kawaramachi-dori",
-          "place": "Centrum",
           "lat": null,
           "lng": null,
-          "type": "nakupy",
-          "note": "Večer volný podle energie.",
           "time": "",
-          "done": false,
-          "id": "brief-11-25-3"
+          "done": true
+        },
+        {
+          "id": "actual-1125-kurasu",
+          "title": "Káva v Kurasu",
+          "place": "Kjóto",
+          "type": "jidlo",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-nijo",
+          "title": "Hrad Nidžó a zahrady",
+          "place": "Kjóto",
+          "type": "pamatka",
+          "note": "Procházka krásnými zahradami.",
+          "lat": 35.01416667,
+          "lng": 135.7475,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-sushiro",
+          "title": "Oběd v Sushiro v Kawaramachi",
+          "place": "Kawaramachi",
+          "type": "jidlo",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-shopping",
+          "title": "Obchody v ulicích Shijō a Kawaramachi",
+          "place": "Centrum Kjóta",
+          "type": "nakupy",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-nishiki",
+          "title": "Nishiki Market a Nishiki Tenmangū",
+          "place": "Centrum Kjóta",
+          "type": "pamatka",
+          "note": "Krátký průchod částí trhu cestou ke svatyni, kde právě probíhal koncert.",
+          "lat": 35.005,
+          "lng": 135.7649,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-rest",
+          "title": "Ubytování a odpočinek",
+          "place": "Kjóto",
+          "type": "jine",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-kiyomizu",
+          "title": "Večerně nasvícená Kiyomizu-dera",
+          "place": "Higashiyama",
+          "type": "pamatka",
+          "note": "Večerní návštěva chrámu s nasvícením.",
+          "lat": 34.9949,
+          "lng": 135.785,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1125-dinner",
+          "title": "Večeře v McDonald’s a návrat na ubytování",
+          "place": "Kjóto",
+          "type": "jidlo",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Ráno jsme přijeli do Kjóta a začali kávou v kavárně Kurasu. Odtud jsme vyrazili na hrad Nidžó, kde jsme si prošli krásné zahrady. Na oběd jsme zajeli do Sushiro v Kawaramachi a potom prošli obchody v ulicích Shijō a Kawaramachi. Cestou ke svatyni Nishiki Tenmangū jsme rychle proběhli část Nishiki Marketu. U svatyně zrovna probíhal koncert, takže návštěva byla o to zajímavější. Pak jsme se ubytovali a odpočinuli si. Večer jsme vyrazili do nasvícené Kiyomizu-dery – bylo to super. Den zakončila večeře v mekáči a návrat na ubytování."
+        }
+      ],
       "photos": []
     },
     {
