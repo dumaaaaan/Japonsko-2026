@@ -947,7 +947,24 @@
           "text": "Navštívili jsme Toyosu Market, prošli si stánky a dali si oběd. Na střeše budovy jsem si dopřál lázeň na nohy. Potom jsme se vydali jednokolejkou na Odaibu a užili si parádní výhledy na panorama města. Pokračovali jsme k Tokyo Tower a odtud pěšky do Azabudai Hills podívat se na novou pobočku Famima. Pak jsme jeli na Ginzu, dali si kávu a prošli osmipatrové papírnictví. Přes Tokyo International Forum jsme došli k Tokyo Station a zamířili na ubytování."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-20-toyosu-market.jpg",
+          "caption": "Toyosu Market"
+        },
+        {
+          "src": "photos/2026-11-20-obed-toyosu.jpg",
+          "caption": "Oběd v Toyosu"
+        },
+        {
+          "src": "photos/2026-11-20-odaiba-rainbow-bridge.jpg",
+          "caption": "Výhled z Odaiby na Rainbow Bridge"
+        },
+        {
+          "src": "photos/2026-11-20-tokyo-tower.jpg",
+          "caption": "Tokyo Tower"
+        }
+      ]
     },
     {
       "date": "2026-11-21",
