@@ -1425,7 +1425,24 @@
           "text": "Ráno jsme přijeli do Kjóta a začali kávou v kavárně Kurasu. Odtud jsme vyrazili na hrad Nidžó, kde jsme si prošli krásné zahrady. Na oběd jsme zajeli do Sushiro v Kawaramachi a potom prošli obchody v ulicích Shijō a Kawaramachi. Cestou ke svatyni Nishiki Tenmangū jsme rychle proběhli část Nishiki Marketu. U svatyně zrovna probíhal koncert, takže návštěva byla o to zajímavější. Pak jsme se ubytovali a odpočinuli si. Večer jsme vyrazili do nasvícené Kiyomizu-dery – bylo to super. Den zakončila večeře v mekáči a návrat na ubytování."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-25-nijo-zahrady.jpg",
+          "caption": "Zahrady hradu Nidžó"
+        },
+        {
+          "src": "photos/2026-11-25-sushiro.jpg",
+          "caption": "Oběd v Sushiro"
+        },
+        {
+          "src": "photos/2026-11-25-kiyomizu-vecer.jpg",
+          "caption": "Večerně nasvícená Kiyomizu-dera"
+        },
+        {
+          "src": "photos/2026-11-25-mcdonalds.jpg",
+          "caption": "Večerní zastávka v McDonald’s"
+        }
+      ]
     },
     {
       "date": "2026-11-26",
