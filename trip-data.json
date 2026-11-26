@@ -1239,7 +1239,24 @@
           "text": "Den jsme začali Ósackým hradem, který stojí v krásném parku. Po procházce jsme zamířili na oběd do kavárny My neighbor, kde jsme si dali sandwich s wagyu hovězím, kuřecí sandwich a kávu. Potom jsme prošli obchůdky a několik sekáčů v Shinsaibashi a Amerikamuře. Cestou na metro jsme se krátce zastavili u chrámu Mitsugu, zasvěceného pejskům. Byli jsme dost unavení, a tak jsme si zajeli odpočinout na ubytování. Večer jsme vyrazili do teamLab Botanical Garden Osaka na světelné instalace zakomponované do místního parku. Odtud jsme pokračovali na známou ulici Dotonbori, prošli se po okolí a pak se vrátili na ubytování."
         }
       ],
-      "photos": []
+      "photos": [
+        {
+          "src": "photos/2026-11-23-osacky-hrad.jpg",
+          "caption": "Ósacký hrad"
+        },
+        {
+          "src": "photos/2026-11-23-my-neighbor.jpg",
+          "caption": "Oběd v My neighbor"
+        },
+        {
+          "src": "photos/2026-11-23-teamlab.jpg",
+          "caption": "Světelné instalace v teamLab Botanical Garden Osaka"
+        },
+        {
+          "src": "photos/2026-11-23-dotonbori-vecer.jpg",
+          "caption": "Večerní Dotonbori"
+        }
+      ]
     },
     {
       "date": "2026-11-24",
