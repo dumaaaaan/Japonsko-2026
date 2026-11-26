@@ -1412,54 +1412,92 @@
     },
     {
       "date": "2026-11-26",
-      "title": "Fushimi Inari a Higashiyama",
+      "title": "Fushimi Inari až na vrchol a večerní Kjóto",
       "activities": [
         {
-          "title": "Fushimi Inari Taisha",
+          "id": "actual-1126-inari",
+          "title": "Fushimi Inari a výšlap až na vrchol",
           "place": "Fushimi",
+          "type": "pamatka",
+          "note": "Brány torii, výstup na vrchol a procházka po okolí. Poté vlakem do centra.",
           "lat": 34.9671,
           "lng": 135.7727,
-          "type": "pamatka",
-          "note": "Velmi brzký start.",
           "time": "",
-          "done": false,
-          "id": "brief-11-26-1"
+          "done": true
         },
         {
-          "title": "Sanjūsangendō",
-          "place": "Higashiyama",
-          "lat": 34.98777778,
-          "lng": 135.77166667,
-          "type": "pamatka",
+          "id": "actual-1126-sando",
+          "title": "Oběd v Taku Sando",
+          "place": "Kjóto",
+          "type": "jidlo",
           "note": "",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-26-2"
+          "done": true
         },
         {
-          "title": "Kiyomizu-dera a staré uličky",
-          "place": "Higashiyama",
-          "lat": 34.9949,
-          "lng": 135.785,
-          "type": "pamatka",
-          "note": "Kōdai-ji podle času.",
+          "id": "actual-1126-bluebottle",
+          "title": "Káva v Blue Bottle",
+          "place": "Kjóto",
+          "type": "jidlo",
+          "note": "Kavárna téměř vedle Taku Sando, pak krátká procházka po okolí.",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-26-3"
+          "done": true
         },
         {
-          "title": "Yasaka a večerní Gion",
+          "id": "actual-1126-rest",
+          "title": "Odpočinek na ubytování",
+          "place": "Kjóto",
+          "type": "jine",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1126-nishiki",
+          "title": "Taiyaki a takoyaki na Nishiki Marketu",
+          "place": "Centrum Kjóta",
+          "type": "jidlo",
+          "note": "Taiyaki – sladké pečivo ve tvaru ryby s náplní. Takoyaki – kuličky z těsta s kousky chobotnice.",
+          "lat": 35.005,
+          "lng": 135.7649,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1126-pontocho",
+          "title": "Pontocho Alley a procházka podél řeky",
+          "place": "Kjóto",
+          "type": "jine",
+          "note": "",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1126-yasaka",
+          "title": "Večerní svatyně Yasaka",
           "place": "Gion",
+          "type": "pamatka",
+          "note": "Odtud autobusem zpět na ubytování.",
           "lat": 35.0037,
           "lng": 135.7785,
-          "type": "pamatka",
-          "note": "Chion-in jen jako volitelná odbočka.",
           "time": "",
-          "done": false,
-          "id": "brief-11-26-4"
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Ráno jsme vyrazili do Fushimi Inari, známé svými branami torii, a vyšlápli si až na vrchol hory. Po výšlapu jsme se ještě prošli po okolí a vlakem zamířili do centra. Na oběd nakonec vyhrál Taku Sando, po něm následovala káva v téměř sousední kavárně Blue Bottle a krátká procházka. Pak jsme se vrátili na ubytování načerpat síly. Večer jsme na Nishiki Marketu ochutnali taiyaki (sladké pečivo ve tvaru ryby s náplní) a takoyaki (kuličky z těsta s kousky chobotnice). Odtud jsme prošli k Pontocho Alley, pokračovali podél řeky ke svatyni Yasaka a autobusem se vrátili na ubytování."
+        }
+      ],
       "photos": []
     },
     {
