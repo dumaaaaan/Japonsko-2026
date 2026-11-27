@@ -1536,43 +1536,92 @@
     },
     {
       "date": "2026-11-27",
-      "title": "Západní Kjóto",
+      "title": "Kinkaku-ji, Ryōan-ji a Stezka filozofů",
       "activities": [
         {
-          "title": "Kinkaku-ji",
+          "id": "actual-1127-coffee",
+          "title": "Káva v Gogo Coffee",
+          "place": "Kjóto",
+          "type": "jidlo",
+          "note": "Nedaleko Kinkaku-ji, před návštěvou chrámu.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1127-kinkakuji",
+          "title": "Kinkaku-ji – Zlatý pavilon",
           "place": "Kita",
+          "type": "pamatka",
+          "note": "Prohlídka celého areálu.",
           "lat": 35.0394,
           "lng": 135.7292,
-          "type": "pamatka",
-          "note": "",
           "time": "",
-          "done": false,
-          "id": "brief-11-27-1"
+          "done": true
         },
         {
-          "title": "Ryōan-ji",
+          "id": "actual-1127-ryoanji",
+          "title": "Pěšky ke chrámu Ryōan-ji",
           "place": "Západní Kjóto",
+          "type": "pamatka",
+          "note": "",
           "lat": 35.03444444,
           "lng": 135.71833333,
-          "type": "pamatka",
-          "note": "",
           "time": "",
-          "done": false,
-          "id": "brief-11-27-2"
+          "done": true
         },
         {
-          "title": "Ninna-ji",
-          "place": "Západní Kjóto",
-          "lat": 35.03105556,
-          "lng": 135.71380556,
-          "type": "pamatka",
-          "note": "Pokud bude rezervace Nintendo Museum, může nahradit tento chrámový den.",
+          "id": "actual-1127-bus",
+          "title": "Autobusem směrem ke Stezce filozofů",
+          "place": "Kjóto",
+          "type": "doprava",
+          "note": "",
+          "lat": null,
+          "lng": null,
           "time": "",
-          "done": false,
-          "id": "brief-11-27-3"
+          "done": true
+        },
+        {
+          "id": "actual-1127-ramen",
+          "title": "Ramen nedaleko autobusové zastávky",
+          "place": "Kjóto",
+          "type": "jidlo",
+          "note": "Výborný oběd před pokračováním ke stezce.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1127-philosopherspath",
+          "title": "Celá Stezka filozofů",
+          "place": "Kjóto",
+          "type": "priroda",
+          "note": "Dlouhá procházka před návratem na ubytování.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
+        },
+        {
+          "id": "actual-1127-otoyo",
+          "title": "Otoyo",
+          "place": "Kjóto",
+          "type": "pamatka",
+          "note": "Návštěva zašitého chrámu během procházky.",
+          "lat": null,
+          "lng": null,
+          "time": "",
+          "done": true
         }
       ],
-      "notes": [],
+      "notes": [
+        {
+          "time": "",
+          "text": "Ráno jsme vyrazili ke Kinkaku-ji a před návštěvou se zastavili na kávu v nedalekém Gogo Coffee. Chrám se zlatým pavilonem byl opravdu krásný. Prošli jsme celý areál a potom pěšky pokračovali k Ryōan-ji, který se nám také moc líbil. Odtud jsme jeli autobusem směrem ke Stezce filozofů. Nedaleko jedné ze zastávek jsme si dali vynikající ramen a pak pokračovali ke stezce. Prošli jsme ji celou a navštívili i zašitý chrám Otoyo. Po dlouhé procházce jsme zamířili na ubytování – zítra ráno nás čeká přesun šinkansenem do Hirošimy."
+        }
+      ],
       "photos": []
     },
     {
